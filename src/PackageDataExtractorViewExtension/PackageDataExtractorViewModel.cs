@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.IO.Packaging;
 using System.Linq;
 using System.Reflection;
@@ -31,19 +32,20 @@ namespace PackageDataExtractor
         private string _selectedPackage;
         public string SelectedPackage
         {
-            get { return _selectedPackage; }
+            get => _selectedPackage;
             set
             {
                 // Some logic here
                 _selectedPackage = value;
                 PackageNodes = GetPackageNodes();
+                RaisePropertyChanged(nameof(PackageNodes));
             }
         }
 
         /// <summary>
         /// Selected nodes for export
         /// </summary>
-        public ObservableCollection<MlNode> PackageNodes { get; set; }
+        public ObservableCollection<MlNode> PackageNodes { get; set; } = new ObservableCollection<MlNode>();
 
         public PackageDataExtractorViewModel(ViewLoadedParams p)
         {
@@ -59,7 +61,7 @@ namespace PackageDataExtractor
 
         private ObservableCollection<string> GetLoadedPackages()
         {
-            var packagess = PackageManager.PackageLoader.LocalPackages.ToList();
+           
 
             List<string> packages = new List<string>();
 
@@ -80,6 +82,7 @@ namespace PackageDataExtractor
 
         private ObservableCollection<MlNode> GetPackageNodes()
         {
+            var packages = PackageManager.PackageLoader.LocalPackages.ToList();
             List<MlNode> nodeData = new List<MlNode>();
 
             var libraries = DynamoViewModel.Model.SearchModel.SearchEntries.ToList();
@@ -98,10 +101,11 @@ namespace PackageDataExtractor
                         var nM = obj as NodeModel;
 
                         MlNode mlNode = new MlNode();
-
+                        MlNodeData mlNodeData = new MlNodeData();
                         if (nM is DSFunction dsFunction)
                         {
                             mlNode.functionString = dsFunction.FunctionSignature;
+                            mlNodeData.nodeType = "FunctionNode";
                         }
 
                         if (nM is Function function)
@@ -109,8 +113,14 @@ namespace PackageDataExtractor
                             mlNode.functionString = function.FunctionSignature.ToString();
                         }
 
+                        //get the version
+                        var package = packages.First(p => p.Name.Contains(SelectedPackage));
+                        mlNodeData.packageName = package.Name;
+                        mlNodeData.packageVersion = package.VersionName;
 
-                        nodeData.Add(new MlNode());
+                        mlNode.nodeData = mlNodeData;
+
+                        nodeData.Add(mlNode);
                     }
                   
                 }

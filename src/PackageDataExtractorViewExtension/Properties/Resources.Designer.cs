@@ -22,7 +22,7 @@ namespace PackageDataExtractor.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace PackageDataExtractor.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PackageDataExtractor.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace PackageDataExtractor.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -61,9 +61,18 @@ namespace PackageDataExtractor.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Export to JSON.
+        /// </summary>
+        public static string ExportButtonText {
+            get {
+                return ResourceManager.GetString("ExportButtonText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to PackageDataExtractor.
         /// </summary>
-        internal static string ExtensionName {
+        public static string ExtensionName {
             get {
                 return ResourceManager.GetString("ExtensionName", resourceCulture);
             }
@@ -72,7 +81,7 @@ namespace PackageDataExtractor.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Extract Package Data to JSON.
         /// </summary>
-        internal static string HeaderText {
+        public static string HeaderText {
             get {
                 return ResourceManager.GetString("HeaderText", resourceCulture);
             }
