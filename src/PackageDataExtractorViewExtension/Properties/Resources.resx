@@ -120,4 +120,7 @@
   <data name="ExtensionName" xml:space="preserve">
     <value>PackageDataExtractor</value>
   </data>
+  <data name="HeaderText" xml:space="preserve">
+    <value>Extract Package Data to JSON</value>
+  </data>
 </root>

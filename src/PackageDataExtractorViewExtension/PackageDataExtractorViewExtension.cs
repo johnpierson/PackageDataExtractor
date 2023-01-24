@@ -11,7 +11,7 @@ namespace PackageDataExtractor
 {
     public class PackageDataExtractorViewExtension : ViewExtensionBase, IViewExtension
     {
-        public MenuItem packageDataExtractorMenuItem;
+        public MenuItem PackageDataExtractorMenuItem;
         private ViewLoadedParams viewLoadedParamsReference;
 
         internal PackageDataExtractorView View;
@@ -35,17 +35,31 @@ namespace PackageDataExtractor
         public override void Dispose()
         {
             // Cleanup
-            if (packageDataExtractorMenuItem != null)
+            if (PackageDataExtractorMenuItem != null)
             {
-                packageDataExtractorMenuItem.Checked -= MenuItemCheckHandler;
-                packageDataExtractorMenuItem.Unchecked -= MenuItemUnCheckHandler;
+                PackageDataExtractorMenuItem.Checked -= MenuItemCheckHandler;
+                PackageDataExtractorMenuItem.Unchecked -= MenuItemUnCheckHandler;
             }
 
             ViewModel?.Dispose();
             View = null;
             ViewModel = null;
         }
-        public void Shutdown()
+        public override void Loaded(ViewLoadedParams viewLoadedParams)
+        {
+            if (viewLoadedParams == null) throw new ArgumentNullException(nameof(viewLoadedParams));
+
+            viewLoadedParamsReference = viewLoadedParams;
+
+            // Add a button to Dynamo View menu to manually show the window
+            PackageDataExtractorMenuItem = new MenuItem { Header = Properties.Resources.HeaderText, IsCheckable = true };
+            PackageDataExtractorMenuItem.Checked += MenuItemCheckHandler;
+            PackageDataExtractorMenuItem.Unchecked += MenuItemUnCheckHandler;
+
+            viewLoadedParamsReference.AddExtensionMenuItem(PackageDataExtractorMenuItem);
+        }
+
+        public override void Shutdown()
         {
             Dispose();
         }
@@ -76,7 +90,7 @@ namespace PackageDataExtractor
 
         public override void Closed()
         {
-            if (packageDataExtractorMenuItem != null) packageDataExtractorMenuItem.IsChecked = false;
+            if (PackageDataExtractorMenuItem != null) PackageDataExtractorMenuItem.IsChecked = false;
         }
     }
 }

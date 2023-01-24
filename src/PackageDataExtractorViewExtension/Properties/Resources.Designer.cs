@@ -68,5 +68,14 @@ namespace PackageDataExtractor.Properties {
                 return ResourceManager.GetString("ExtensionName", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Extract Package Data to JSON.
+        /// </summary>
+        internal static string HeaderText {
+            get {
+                return ResourceManager.GetString("HeaderText", resourceCulture);
+            }
+        }
     }
 }
