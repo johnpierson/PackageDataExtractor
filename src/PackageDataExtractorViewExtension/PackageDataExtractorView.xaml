@@ -10,8 +10,8 @@
         <ResourceDictionary>
             <!--this needs fixed because i cant reference for some reason-->
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/DynamoColorsAndBrushes.xaml"></ResourceDictionary>
-                <ResourceDictionary Source="pack://application:,,,/DynamoModern.xaml"></ResourceDictionary>
+                <!--<ResourceDictionary Source="pack://application:,,,/DynamoColorsAndBrushes.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="pack://application:,,,/DynamoModern.xaml"></ResourceDictionary>-->
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>
@@ -28,11 +28,11 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Label Grid.Row="0" Grid.Column="0" Content="Select a Package:" FontSize="13"  FontFamily="{StaticResource ArtifaktElementBold}"
-               Foreground="{StaticResource PreferencesWindowFontColor}" VerticalContentAlignment="Center"/>
-        <ComboBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding LoadedPackages}" Margin="8"></ComboBox>
-        <Label Grid.Row="2" Grid.Column="0" Content="Node Count:" FontSize="13"  FontFamily="{StaticResource ArtifaktElementBold}"
-               Foreground="{StaticResource PreferencesWindowFontColor}" VerticalContentAlignment="Center"/>
+        <Label Grid.Row="0" Grid.Column="0" Content="Select a Package:" FontSize="13" 
+                VerticalContentAlignment="Center"/>
+        <ComboBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding LoadedPackages}" Margin="8" SelectedItem="{Binding SelectedPackage}"></ComboBox>
+        <Label Grid.Row="2" Grid.Column="0" Content="{Binding Path=PackageNodes.Count, FallbackValue=0}" ContentStringFormat="{}{0} Nodes to Export" FontSize="13" 
+                VerticalContentAlignment="Center"/>
 
     </Grid>
 </UserControl>
