@@ -174,6 +174,7 @@ namespace PackageDataExtractor
                             mlNode.Name = function.FunctionSignature.ToString();
                             mlNodeData.NodeType = "FunctionNode";
                             break;
+                        //TODO: Find concrete type for other nodes
                     }
 
                     //get the version
