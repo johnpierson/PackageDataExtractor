@@ -16,6 +16,7 @@ using Dynamo.Utilities;
 using Dynamo.ViewModels;
 using Dynamo.Wpf.Extensions;
 using Dynamo.PackageManager;
+using Newtonsoft.Json;
 
 namespace PackageDataExtractor
 {
@@ -42,6 +43,8 @@ namespace PackageDataExtractor
             }
         }
 
+        public string CurrentJSON { get; set; } = String.Empty;
+
         /// <summary>
         /// Selected nodes for export
         /// </summary>
@@ -61,8 +64,6 @@ namespace PackageDataExtractor
 
         private ObservableCollection<string> GetLoadedPackages()
         {
-           
-
             List<string> packages = new List<string>();
 
             var libraries = DynamoViewModel.Model.SearchModel.SearchEntries.ToList();
@@ -83,7 +84,10 @@ namespace PackageDataExtractor
         private ObservableCollection<MlNode> GetPackageNodes()
         {
             var packages = PackageManager.PackageLoader.LocalPackages.ToList();
+
+            //data to write
             List<MlNode> nodeData = new List<MlNode>();
+            Dictionary<string, MlNodeData> jsonDataDictionary = new Dictionary<string, MlNodeData>();
 
             var libraries = DynamoViewModel.Model.SearchModel.SearchEntries.ToList();
 
@@ -104,27 +108,35 @@ namespace PackageDataExtractor
                         MlNodeData mlNodeData = new MlNodeData();
                         if (nM is DSFunction dsFunction)
                         {
-                            mlNode.functionString = dsFunction.FunctionSignature;
-                            mlNodeData.nodeType = "FunctionNode";
+                            mlNode.Name = dsFunction.FunctionSignature;
+                            mlNodeData.NodeType = "FunctionNode";
                         }
 
                         if (nM is Function function)
                         {
-                            mlNode.functionString = function.FunctionSignature.ToString();
+                            mlNode.Name = function.FunctionSignature.ToString();
+                            mlNodeData.NodeType = "FunctionNode";
                         }
 
                         //get the version
                         var package = packages.First(p => p.Name.Contains(SelectedPackage));
-                        mlNodeData.packageName = package.Name;
-                        mlNodeData.packageVersion = package.VersionName;
+                        mlNodeData.PackageName = package.Name;
+                        mlNodeData.PackageVersion = package.VersionName;
+
+                        jsonDataDictionary.Add(mlNode.Name, mlNodeData);
 
                         mlNode.nodeData = mlNodeData;
-
+                        
                         nodeData.Add(mlNode);
                     }
                   
                 }
             }
+
+
+
+            CurrentJSON = JsonConvert.SerializeObject(jsonDataDictionary);
+            RaisePropertyChanged(nameof(CurrentJSON));
 
             return nodeData.ToObservableCollection();
         }

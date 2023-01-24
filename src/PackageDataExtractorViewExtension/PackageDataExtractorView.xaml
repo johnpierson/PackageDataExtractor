@@ -25,13 +25,15 @@
 
         <Label Grid.Row="0" Grid.Column="0" Content="Select a Package:" FontSize="13" 
                 VerticalContentAlignment="Center" Foreground="#E5E5E5"/>
-        <ComboBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding LoadedPackages}" Margin="8" SelectedItem="{Binding SelectedPackage}" Foreground="Black"/>
-        <Label Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0" ContentStringFormat="{}{0} Nodes to Export" FontSize="13" 
+        <ComboBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding LoadedPackages}" Margin="8" SelectedItem="{Binding SelectedPackage}" Foreground="Black" VerticalContentAlignment="Center"/>
+        <Label FontStyle="Italic" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0" ContentStringFormat="{}{0} Nodes to Export.." FontSize="13" 
                 VerticalContentAlignment="Center" Foreground="#E5E5E5">
             <Label.Content>
-                <Binding Path="PackageNodes.Count" Mode="OneWay" UpdateSourceTrigger="Default"/>
+                <Binding Path="PackageNodes.Count" FallbackValue="0" Mode="OneWay" UpdateSourceTrigger="Default"/>
             </Label.Content>
         </Label>
+
+        <TextBlock Grid.Row="3" Grid.Column="1" Margin="8" Text="{Binding CurrentJSON, FallbackValue=Nothing Yet}" Foreground="#E5E5E5"/>
 
         <Button Grid.Column="0" Grid.Row="4" Margin="8" Content="Export to JSON"/>
     </Grid>
