@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.IO;
 using System.IO.Packaging;
 using System.Linq;
 using System.Reflection;
@@ -16,6 +17,7 @@ using Dynamo.Utilities;
 using Dynamo.ViewModels;
 using Dynamo.Wpf.Extensions;
 using Dynamo.PackageManager;
+using Dynamo.UI.Commands;
 using Newtonsoft.Json;
 
 namespace PackageDataExtractor
@@ -25,6 +27,41 @@ namespace PackageDataExtractor
         private readonly ViewLoadedParams viewLoadedParamsInstance;
         internal DynamoViewModel DynamoViewModel;
         internal PackageManagerExtension PackageManager;
+
+        public DelegateCommand ExportJsonCommand { get; set; }
+
+
+        private bool canExport;
+
+        /// <summary>
+        ///     Checks if both folder paths have been set
+        /// </summary>
+        public bool CanExport
+        {
+            get
+            {
+                if (CurrentJSON == null)
+                {
+                    return false;
+                }
+
+                if (string.IsNullOrWhiteSpace(JsonFilePath))
+                {
+                    return false;
+                }
+
+                return true;
+            }
+            private set
+            {
+                if (canExport != value)
+                {
+                    canExport = value;
+                    RaisePropertyChanged(nameof(CanExport));
+                }
+            }
+        }
+
         /// <summary>
         /// Loaded packages for export
         /// </summary>
@@ -40,10 +77,14 @@ namespace PackageDataExtractor
                 _selectedPackage = value;
                 PackageNodes = GetPackageNodes();
                 RaisePropertyChanged(nameof(PackageNodes));
+                JsonFilePath = $"{Environment.GetFolderPath(Environment.SpecialFolder.Desktop)}\\{SelectedPackage}.json";
+                RaisePropertyChanged(nameof(JsonFilePath));
+                RaisePropertyChanged(nameof(CanExport));
             }
         }
 
         public string CurrentJSON { get; set; } = String.Empty;
+        public string JsonFilePath { get; set; }
 
         /// <summary>
         /// Selected nodes for export
@@ -60,6 +101,9 @@ namespace PackageDataExtractor
             PackageManager = viewLoadedParamsInstance.ViewStartupParams.ExtensionManager.Extensions.OfType<PackageManagerExtension>().FirstOrDefault();
 
             LoadedPackages = GetLoadedPackages();
+           
+
+            ExportJsonCommand = new DelegateCommand(ExportJson);
         }
 
         private ObservableCollection<string> GetLoadedPackages()
@@ -133,13 +177,21 @@ namespace PackageDataExtractor
                 }
             }
 
-
-
             CurrentJSON = JsonConvert.SerializeObject(jsonDataDictionary);
             RaisePropertyChanged(nameof(CurrentJSON));
 
             return nodeData.ToObservableCollection();
         }
+
+        /// <summary>
+        ///     The main method executing the export
+        /// </summary>
+        /// <param name="obj"></param>
+        private void ExportJson(object obj)
+        {
+            File.WriteAllText(JsonFilePath,CurrentJSON);
+        }
+
         public void Dispose()
         {
             DynamoViewModel = null;

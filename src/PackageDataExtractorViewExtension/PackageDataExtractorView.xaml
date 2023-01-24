@@ -15,6 +15,8 @@
             <RowDefinition Height="48"/>
             <RowDefinition Height="8"/>
             <RowDefinition Height="48"/>
+            <RowDefinition Height="8"/>
+            <RowDefinition Height="48"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="48"/>
         </Grid.RowDefinitions>
@@ -33,8 +35,13 @@
             </Label.Content>
         </Label>
 
-        <TextBlock Grid.Row="3" Grid.Column="1" Margin="8" Text="{Binding CurrentJSON, FallbackValue=Nothing Yet}" Foreground="#E5E5E5"/>
+        <Label Grid.Row="4" Grid.Column="0" Content="JSON File Path:" FontSize="13" VerticalContentAlignment="Center" Foreground="#E5E5E5"/>
 
-        <Button Grid.Column="0" Grid.Row="4" Margin="8" Content="Export to JSON"/>
+        <TextBox Grid.Row="4" Grid.Column="1" Margin="8" Text="{Binding JsonFilePath}"/>
+
+        <!--<TextBlock Grid.Row="3" Grid.Column="1" Margin="8" Text="{Binding CurrentJSON, FallbackValue=Nothing Yet}" Foreground="#E5E5E5" TextWrapping="Wrap"/>-->
+
+        <Button Grid.Column="0" Grid.Row="6" Margin="8" Content="Export to JSON"  Command="{Binding ExportJsonCommand}"
+                IsEnabled="{Binding CanExport}"/>
     </Grid>
 </UserControl>
