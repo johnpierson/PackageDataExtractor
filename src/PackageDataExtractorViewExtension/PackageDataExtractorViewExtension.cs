@@ -37,8 +37,8 @@ namespace PackageDataExtractor
             // Cleanup
             if (PackageDataExtractorMenuItem != null)
             {
-                PackageDataExtractorMenuItem.Checked -= MenuItemCheckHandler;
-                PackageDataExtractorMenuItem.Unchecked -= MenuItemUnCheckHandler;
+                //PackageDataExtractorMenuItem.Checked -= MenuItemCheckHandler;
+                //PackageDataExtractorMenuItem.Unchecked -= MenuItemUnCheckHandler;
             }
 
             ViewModel?.Dispose();
