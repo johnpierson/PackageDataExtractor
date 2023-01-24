@@ -31,32 +31,32 @@ namespace PackageDataExtractor
         public DelegateCommand ExportJsonCommand { get; set; }
 
 
-        private bool canExport;
+        private bool _canExport;
 
         /// <summary>
-        ///     Checks if both folder paths have been set
+        /// Checks if the export operation can be completed
         /// </summary>
         public bool CanExport
         {
             get
             {
-                if (CurrentJSON == null)
+                if (CurrentJson != null)
                 {
-                    return false;
+                    return true;
                 }
 
-                if (string.IsNullOrWhiteSpace(JsonFilePath))
+                if (!string.IsNullOrWhiteSpace(JsonFilePath))
                 {
-                    return false;
+                    return true;
                 }
 
-                return true;
+                return false;
             }
             private set
             {
-                if (canExport != value)
+                if (_canExport != value)
                 {
-                    canExport = value;
+                    _canExport = value;
                     RaisePropertyChanged(nameof(CanExport));
                 }
             }
@@ -82,14 +82,25 @@ namespace PackageDataExtractor
                 RaisePropertyChanged(nameof(CanExport));
             }
         }
+        /// <summary>
+        /// Current Json string for export
+        /// </summary>
+        public string CurrentJson { get; set; } = String.Empty;
 
-        public string CurrentJSON { get; set; } = String.Empty;
+        /// <summary>
+        /// File path for export. (builds dynamically from package name selected)
+        /// </summary>
         public string JsonFilePath { get; set; }
 
         /// <summary>
         /// Selected nodes for export
         /// </summary>
         public ObservableCollection<MlNode> PackageNodes { get; set; } = new ObservableCollection<MlNode>();
+
+        /// <summary>
+        /// Selected nodes for export
+        /// </summary>
+        public List<NodeSearchElement> CustomNodesToSearch { get; set; }
 
         public PackageDataExtractorViewModel(ViewLoadedParams p)
         {
@@ -101,15 +112,13 @@ namespace PackageDataExtractor
             PackageManager = viewLoadedParamsInstance.ViewStartupParams.ExtensionManager.Extensions.OfType<PackageManagerExtension>().FirstOrDefault();
 
             LoadedPackages = GetLoadedPackages();
-           
-
             ExportJsonCommand = new DelegateCommand(ExportJson);
         }
 
         private ObservableCollection<string> GetLoadedPackages()
         {
             List<string> packages = new List<string>();
-
+            List<NodeSearchElement> nodesToSearch = new List<NodeSearchElement>();
             var libraries = DynamoViewModel.Model.SearchModel.SearchEntries.ToList();
 
             foreach (var element in libraries)
@@ -119,8 +128,11 @@ namespace PackageDataExtractor
                     element.ElementType.HasFlag(ElementTypes.CustomNode))
                 {
                     packages.Add(element.Categories.First());
+                    nodesToSearch.Add(element);
                 }
             }
+
+            CustomNodesToSearch = nodesToSearch;
 
             return packages.Distinct().ToObservableCollection();
         }
@@ -133,52 +145,53 @@ namespace PackageDataExtractor
             List<MlNode> nodeData = new List<MlNode>();
             Dictionary<string, MlNodeData> jsonDataDictionary = new Dictionary<string, MlNodeData>();
 
-            var libraries = DynamoViewModel.Model.SearchModel.SearchEntries.ToList();
+            //var libraries = DynamoViewModel.Model.SearchModel.SearchEntries.Where(e => e.Categories.First().Equals(SelectedPackage)).ToList();
 
-            foreach (var element in libraries)
+            foreach (var element in CustomNodesToSearch)
             {
                 // Only include packages and custom nodes
                 if (element.ElementType.HasFlag(ElementTypes.Packaged) ||
-                    element.ElementType.HasFlag(ElementTypes.CustomNode) && element.IsVisibleInSearch) 
+                    element.ElementType.HasFlag(ElementTypes.CustomNode) && element.IsVisibleInSearch)
                 {
-                    if (element.Categories.First().Equals(SelectedPackage))
-                    {
-                        var dynMethod = element.GetType().GetMethod("ConstructNewNodeModel",
-                            BindingFlags.NonPublic | BindingFlags.Instance);
-                        var obj = dynMethod.Invoke(element, new object[] { });
-                        var nM = obj as NodeModel;
+                    if (!element.Categories.First().Equals(SelectedPackage)) continue;
 
-                        MlNode mlNode = new MlNode();
-                        MlNodeData mlNodeData = new MlNodeData();
-                        if (nM is DSFunction dsFunction)
-                        {
+                    //build a node model, there is probably an easier way to do this, but ah well
+                    var dynMethod = element.GetType().GetMethod("ConstructNewNodeModel",
+                        BindingFlags.NonPublic | BindingFlags.Instance);
+                    var obj = dynMethod.Invoke(element, new object[] { });
+                    var nM = obj as NodeModel;
+
+                    //custom class to serialize this
+                    MlNode mlNode = new MlNode();
+                    MlNodeData mlNodeData = new MlNodeData();
+                    switch (nM)
+                    {
+                        case DSFunction dsFunction:
                             mlNode.Name = dsFunction.FunctionSignature;
                             mlNodeData.NodeType = "FunctionNode";
-                        }
-
-                        if (nM is Function function)
-                        {
+                            break;
+                        case Function function:
                             mlNode.Name = function.FunctionSignature.ToString();
                             mlNodeData.NodeType = "FunctionNode";
-                        }
-
-                        //get the version
-                        var package = packages.First(p => p.Name.Contains(SelectedPackage));
-                        mlNodeData.PackageName = package.Name;
-                        mlNodeData.PackageVersion = package.VersionName;
-
-                        jsonDataDictionary.Add(mlNode.Name, mlNodeData);
-
-                        mlNode.nodeData = mlNodeData;
-                        
-                        nodeData.Add(mlNode);
+                            break;
                     }
-                  
+
+                    //get the version
+                    var package = packages.First(p => p.Name.Contains(SelectedPackage));
+                    mlNodeData.PackageName = package.Name;
+                    mlNodeData.PackageVersion = package.VersionName;
+
+                    jsonDataDictionary.Add(mlNode.Name, mlNodeData);
+
+                    mlNode.nodeData = mlNodeData;
+                        
+                    nodeData.Add(mlNode);
+
                 }
             }
 
-            CurrentJSON = JsonConvert.SerializeObject(jsonDataDictionary);
-            RaisePropertyChanged(nameof(CurrentJSON));
+            CurrentJson = JsonConvert.SerializeObject(jsonDataDictionary);
+            RaisePropertyChanged(nameof(CurrentJson));
 
             return nodeData.ToObservableCollection();
         }
@@ -189,7 +202,7 @@ namespace PackageDataExtractor
         /// <param name="obj"></param>
         private void ExportJson(object obj)
         {
-            File.WriteAllText(JsonFilePath,CurrentJSON);
+            File.WriteAllText(JsonFilePath,CurrentJson);
         }
 
         public void Dispose()
