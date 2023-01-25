@@ -82,6 +82,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="DynamoVisualProgramming.DynamoCoreNodes">
+      <Version>2.17.0.3493</Version>
+    </PackageReference>
     <PackageReference Include="DynamoVisualProgramming.WpfUILibrary">
       <Version>2.17.0.3493</Version>
     </PackageReference>
@@ -94,6 +97,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>if $(ConfigurationName) == Debug copy "$(ProjectDir)bin\Debug\PackageDataExtractorViewExtension.dll" "C:\Users\JohnPierson\AppData\Roaming\Dynamo\Dynamo Core\2.17\packages\PackageDataExtractorViewExtension\bin"</PostBuildEvent>
+    <PostBuildEvent>if $(ConfigurationName) == Debug copy "$(ProjectDir)bin\Debug\PackageDataExtractorViewExtension.dll" "C:\Users\JohnPierson\AppData\Roaming\Dynamo\Dynamo Core\2.17\packages\PackageDataExtractorViewExtension\bin"
+
+if $(ConfigurationName) == Debug copy "$(ProjectDir)bin\Debug\PackageDataExtractorViewExtension.dll" "C:\Users\JohnPierson\AppData\Roaming\Dynamo\Dynamo Revit\2.16\packages\PackageDataExtractorViewExtension\bin"</PostBuildEvent>
   </PropertyGroup>
 </Project>

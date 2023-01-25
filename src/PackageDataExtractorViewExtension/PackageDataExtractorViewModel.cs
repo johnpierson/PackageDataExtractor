@@ -20,6 +20,7 @@ using Dynamo.PackageManager;
 using Dynamo.UI.Commands;
 using Newtonsoft.Json;
 using System.Web;
+using Dynamo.Controls;
 
 namespace PackageDataExtractor
 {
@@ -155,6 +156,7 @@ namespace PackageDataExtractor
                 {
                     if (!element.Categories.First().Equals(SelectedPackage)) continue;
 
+
                     //build a node model, there is probably an easier way to do this, but ah well
                     var dynMethod = element.GetType().GetMethod("ConstructNewNodeModel",
                         BindingFlags.NonPublic | BindingFlags.Instance);
@@ -164,6 +166,7 @@ namespace PackageDataExtractor
                     //custom class to serialize this
                     MlNode mlNode = new MlNode();
                     MlNodeData mlNodeData = new MlNodeData();
+
                     switch (nM)
                     {
                         case DSFunction dsFunction:
@@ -174,8 +177,22 @@ namespace PackageDataExtractor
                             mlNode.Name = function.FunctionSignature.ToString();
                             mlNodeData.NodeType = "FunctionNode";
                             break;
+                        default:
+                            var typeOfNode = nM.GetType();
+                            var property = typeOfNode.GetProperty("FullName");
+
+                            if (property != null)
+                            {
+                                var value = property.GetValue(nM, null);
+                                mlNode.Name = value.ToString();
+                                mlNodeData.NodeType = typeOfNode.ToString();
+                            }
+
+                            break;
                         //TODO: Find concrete type for other nodes
                     }
+
+                    if(string.IsNullOrWhiteSpace(mlNode.Name)) continue;
 
                     //store the creation name for preview
                     if (nM != null) mlNode.CreationName = nM.Name;
