@@ -21,6 +21,7 @@ using Dynamo.UI.Commands;
 using Newtonsoft.Json;
 using System.Web;
 using Dynamo.Controls;
+using Package = Dynamo.PackageManager.Package;
 
 namespace PackageDataExtractor
 {
@@ -67,10 +68,10 @@ namespace PackageDataExtractor
         /// <summary>
         /// Loaded packages for export
         /// </summary>
-        public ObservableCollection<string> LoadedPackages { get; set; }
+        public ObservableCollection<Package> LoadedPackages { get; set; }
 
-        private string _selectedPackage;
-        public string SelectedPackage
+        private Package _selectedPackage;
+        public Package SelectedPackage
         {
             get => _selectedPackage;
             set
@@ -79,7 +80,7 @@ namespace PackageDataExtractor
                 _selectedPackage = value;
                 PackageNodes = GetPackageNodes();
                 RaisePropertyChanged(nameof(PackageNodes));
-                JsonFilePath = $"{Environment.GetFolderPath(Environment.SpecialFolder.Desktop)}\\{SelectedPackage}.json";
+                JsonFilePath = $"{Environment.GetFolderPath(Environment.SpecialFolder.Desktop)}\\{SelectedPackage.Name}.json";
                 RaisePropertyChanged(nameof(JsonFilePath));
                 RaisePropertyChanged(nameof(CanExport));
             }
@@ -114,7 +115,7 @@ namespace PackageDataExtractor
             DynamoViewModel = viewLoadedParamsInstance.DynamoWindow.DataContext as DynamoViewModel;
             PackageManager = viewLoadedParamsInstance.ViewStartupParams.ExtensionManager.Extensions.OfType<PackageManagerExtension>().FirstOrDefault();
 
-            LoadedPackages = GetLoadedPackages();
+            LoadedPackages = PackageManager.PackageLoader.LocalPackages.ToObservableCollection();
             ExportJsonCommand = new DelegateCommand(ExportJson);
         }
 
@@ -142,32 +143,55 @@ namespace PackageDataExtractor
 
         private ObservableCollection<MlNode> GetPackageNodes()
         {
-            var packages = PackageManager.PackageLoader.LocalPackages.ToList();
+            //var packages = PackageManager.PackageLoader.LocalPackages.ToList();
 
             //data to write
             List<MlNode> nodeData = new List<MlNode>();
             Dictionary<string, MlNodeData> jsonDataDictionary = new Dictionary<string, MlNodeData>();
 
-            foreach (var element in CustomNodesToSearch)
+            foreach (var element in DynamoViewModel.Model.SearchModel.SearchEntries.ToList())
             {
                 // Only include packages and custom nodes
                 if (element.ElementType.HasFlag(ElementTypes.Packaged) ||
                     element.ElementType.HasFlag(ElementTypes.CustomNode) && element.IsVisibleInSearch)
                 {
-                    if (!element.Categories.First().Equals(SelectedPackage)) continue;
+                    bool skip = true;
 
-
+                    switch (element)
+                    {
+                        case CustomNodeSearchElement customNodeSearchElement:
+                            skip = !customNodeSearchElement.Path.Contains(SelectedPackage.RootDirectory);
+                            break;
+                        case ZeroTouchSearchElement zeroTouchSearchElement:
+                            skip = !zeroTouchSearchElement.Assembly.Contains(SelectedPackage.RootDirectory);
+                            break;
+                        case NodeModelSearchElement nodeModelSearchElement:
+                            skip = !nodeModelSearchElement.Assembly.Contains(SelectedPackage.RootDirectory);
+                            break;
+                    }
+                    if(skip) continue;
+                    
                     //build a node model, there is probably an easier way to do this, but ah well
-                    var dynMethod = element.GetType().GetMethod("ConstructNewNodeModel",
-                        BindingFlags.NonPublic | BindingFlags.Instance);
-                    var obj = dynMethod.Invoke(element, new object[] { });
-                    var nM = obj as NodeModel;
+                    NodeModel nodeModel;
+                    try
+                    {
+                        var dynMethod = element.GetType().GetMethod("ConstructNewNodeModel",
+                            BindingFlags.NonPublic | BindingFlags.Instance);
+                        var obj = dynMethod.Invoke(element, new object[] { });
+                        nodeModel = obj as NodeModel;
+                    }
+                    catch (Exception)
+                    {
+                        nodeModel = null;
+                    }
+
+                    if (nodeModel == null) continue;
 
                     //custom class to serialize this
                     MlNode mlNode = new MlNode();
                     MlNodeData mlNodeData = new MlNodeData();
 
-                    switch (nM)
+                    switch (nodeModel)
                     {
                         case DSFunction dsFunction:
                             mlNode.Name = dsFunction.FunctionSignature;
@@ -178,15 +202,8 @@ namespace PackageDataExtractor
                             mlNodeData.NodeType = "FunctionNode";
                             break;
                         default:
-                            var typeOfNode = nM.GetType();
-                            var property = typeOfNode.GetProperty("FullName");
-
-                            if (property != null)
-                            {
-                                var value = property.GetValue(nM, null);
-                                mlNode.Name = value.ToString();
-                                mlNodeData.NodeType = typeOfNode.ToString();
-                            }
+                            mlNode.Name = $"{nodeModel.GetType().FullName}, {nodeModel.GetType().Assembly.GetName().Name}";
+                            mlNodeData.NodeType = "ExtensionNode";
 
                             break;
                         //TODO: Find concrete type for other nodes
@@ -195,14 +212,18 @@ namespace PackageDataExtractor
                     if(string.IsNullOrWhiteSpace(mlNode.Name)) continue;
 
                     //store the creation name for preview
-                    if (nM != null) mlNode.CreationName = nM.Name;
+                    if (nodeModel != null) mlNode.CreationName = nodeModel.Name;
 
                     //get the version
-                    var package = packages.First(p => p.Name.Contains(SelectedPackage));
+                    var package = SelectedPackage;
                     mlNodeData.PackageName = package.Name;
                     mlNodeData.PackageVersion = package.VersionName;
 
-                    jsonDataDictionary.Add(mlNode.Name, mlNodeData);
+                    if (!jsonDataDictionary.ContainsKey(mlNode.Name))
+                    {
+                        jsonDataDictionary.Add(mlNode.Name, mlNodeData);
+                    }
+                   
 
                     mlNode.nodeData = mlNodeData;
 
@@ -231,5 +252,6 @@ namespace PackageDataExtractor
         {
             DynamoViewModel = null;
         }
+
     }
 }
