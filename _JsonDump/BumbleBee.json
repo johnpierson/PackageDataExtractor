@@ -1,0 +1,242 @@
+{
+  "bumblebee.UI.ColorScaleCriteriaTypesUi, bumblebee.UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "bumblebee.UI.CompoundLineTypesUi, bumblebee.UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "bumblebee.UI.DirectionTypesUi, bumblebee.UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "bumblebee.UI.HorizontalAlignTypesUi, bumblebee.UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "bumblebee.UI.LabelPositionTypesUi, bumblebee.UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "bumblebee.UI.LegendPositionTypesUi, bumblebee.UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "bumblebee.UI.LineChartTypesUi, bumblebee.UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "bumblebee.UI.LineTypesUi, bumblebee.UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "bumblebee.UI.LineWeightTypesUi, bumblebee.UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "bumblebee.UI.MarkerTypesUi, bumblebee.UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "bumblebee.UI.OperatorTypesUi, bumblebee.UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "bumblebee.UI.PatternTypesUi, bumblebee.UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "bumblebee.UI.PieChartTypesUi, bumblebee.UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "bumblebee.UI.VerticalAlignTypesUi, bumblebee.UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "d600c221-9483-4209-b6d6-2703df9d3138": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "80d9b482-bc19-4b7b-81ea-1f41dd90a79f": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "ee2bfd6a-235b-4c14-a309-f5cb3e3e3227": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "f93b7083-a1c3-4ecd-aa9b-556f7bedaeab": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "71cda78b-ebea-4608-a791-65119dc84b4c": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "fe691478-f1c8-4cb7-af44-b872f1b431fd": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "25fb7e98-dd92-4eae-b44d-91b4dbc1baa5": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "14152ace-45b6-4531-8a58-0939fa4e2cab": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "f7521b76-ce35-4601-9138-2666e11ff4a7": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "79bbba35-a980-44c4-a12e-8f8d1310aca4": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "43ac48f5-8093-4c9b-94ac-19a233c0bc06": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "79444f83-706e-4363-88d3-36b9b50073ab": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "0fa72262-6e6f-4aaf-bac2-c1a39c715aef": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "dc233281-eef1-4a51-902f-8c0c91ae87b2": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "5220ca12-2319-4a94-acca-b0945790e3dc": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "113644e4-4011-4aaa-a10e-a0919767a766": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "272cf006-9859-4e7e-850f-0dae48a8bbde": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "a186e8f0-0019-40e1-a042-6dd7d3b51bec": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "dda25583-21b6-4243-8a54-dc32c7a43dcf": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "2e32bbb1-41b6-4b33-b00d-75314b3934ad": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "0ab5ba27-e4b3-40da-8993-51f6559bf2f5": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "30811f26-aac6-44e3-b4a0-82838c770a09": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "250384d4-98a8-4965-92bb-f74ab12f5aa4": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "c152c82c-5cc0-4b2f-8f5b-ca010512a6fe": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "1ed50c31-6d73-4abf-ad26-3a68831223c3": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "0a4803d9-9966-419b-af79-9ad7563d5632": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "6ff1db03-baaa-43cc-af6c-4da9f92d7280": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "ca163477-4ebe-4d92-84c6-7cdc209f9957": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "5732b73f-72c2-4872-8e1a-e74b723547b1": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "6cf7f3b9-69ab-40da-b41c-62068370e1b8": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "1a475ce9-5817-448f-8712-7a5d8af338b1": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "cef61a69-968d-4487-a99f-b02ab62b2c03": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "cbcacb5b-1ebe-4913-bcef-fe243224d0d1": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  },
+  "72e88648-ec17-4934-8376-d6c1f6183d67": {
+    "nodeType": "FunctionNode",
+    "packageName": "BumbleBee",
+    "packageVersion": "2021.25.3"
+  }
+}

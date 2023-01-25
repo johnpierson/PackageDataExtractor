@@ -1,0 +1,422 @@
+{
+  "DataShapesZT.DataShapesZT.GeomPreviewNodeModel, DataShapesZT": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "DataShapesZT.DataShapesZT.ByArgbUINodeModel, DataShapesZT": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "5dcfa724-fbf7-481f-8194-928de40b90a6": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "d8c8dc5b-4042-413b-94d7-475cd4e6ff8a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "51e3d5bc-cc07-4e8b-b976-11dc51cf6843": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "862cf928-05c3-42ae-b286-fbe856707b82": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "08b5ebb1-2adc-406e-8925-9bf257371858": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "d62ea75a-e09b-43a3-a1b9-9401f668d551": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "62113099-742e-4754-acaf-81fcb1e7cec9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "dba5773e-08bf-4148-ae6a-4574924c9a25": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "79846c2e-0c6c-4c2e-acfd-62419e6d0988": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "85d047a5-c05a-4aa2-954a-b84d04aa3859": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "557b8803-4f27-44c8-ac3d-c6d8439c1e51": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "9f32e65e-e8cb-4d35-a2d2-25611e209d9e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "2f3cb9e8-f0af-4074-915e-040b1e2e3443": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "37d97a7a-e3ab-4262-94c3-a01600621c20": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "b409775c-5d88-4d47-96a3-5135c775d26a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "bcbf8d22-dfa8-4858-81a9-fc762229a8b9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "b0a6ae7e-e703-48da-9b2f-4a6d4eca728a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "4647653f-66f5-4f97-a70c-44b0fd2fb8fa": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "8bbd3ec6-bc5b-4a95-aa18-eb1ca097fef4": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "a7fbed11-447a-4ff5-b991-9d92bb8ad357": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "219697d9-d6eb-4f4a-97d6-1fc8acac27a7": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "de11246e-9ea4-4a2a-b865-14e9ea096d6f": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "b0670d6b-5444-4a13-8b4d-62d8e7145868": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "034ccda1-a2b7-4ae6-84dc-45c8e10a8dac": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "f48032ea-9f31-4227-8486-b565fa5f7a56": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "c5536ca5-8700-41e7-915f-74418d88cc4e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "46353bef-98a3-4a8b-8254-2926187a009e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "f3dfd2d9-68d3-4bab-b7d6-ce9f0c8a02ca": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "3945e119-3d48-4860-ad86-025b318be8bf": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "e2c94a3c-81fc-480c-ad13-65a13d9319c3": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "0dd4bbc7-3594-4c4f-8e7d-760421e4bc9b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "b7a0f151-01c3-4c17-a025-a8901b5dcd38": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "57d7e831-a536-4477-931d-f529ac91a4a3": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "c3a36eb7-8fe8-4417-b31e-ccc9fded769b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "d5437128-64cf-49ea-b11b-0c06412435ff": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "93018d35-bdfb-4fa8-8a2f-9914e5842d24": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "72542d24-2ab5-4cc0-bd6c-848b9276a7fa": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "3fecf2eb-d8ed-47fa-aabe-30dbaf16cb82": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "4d9b1bab-7c2a-4c7a-bcdd-696029a255a4": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "a611b7a4-e3d6-421e-a166-b85feaadddc8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "9fbd05c0-ec1f-4bd3-bf37-969a1552eab8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "efa23268-f49b-4a83-8c14-8c9ab1e526dd": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "644a40bf-576c-4e5a-ba6b-fdb01cb6af95": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "2c40f9ea-3e3f-4555-a941-e4e2ba295f70": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "0f78cf04-a797-4487-9a0c-b4c4d3bc91f7": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "af155da9-b1c8-4edb-b621-2c60caa7e8f6": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "0ef73d78-1645-4969-9e76-a59656a33eee": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "4abff87f-8dad-41a9-bcf6-98784ac456eb": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "0e68ecd9-e2b5-4875-a334-8680f2f6e836": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "de53be2a-ccd3-4ba4-ac19-bfc582c19c9b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "77f080a0-f2e0-44d4-ac89-cb1f41669ec0": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "960e4c44-03c3-4236-a430-d1b19123d1c2": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "78ef4e25-eb17-4761-8b14-645590cc2029": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "7c69d3af-e660-4fb2-b530-496eaa996fd9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "23014b57-313e-4c4f-957a-469ed4678df0": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "f076090f-2845-4c5c-966b-9e523ef8453b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "0047e789-528f-4798-9fc3-f948fea09189": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "25aff123-aae2-4fb5-aa65-fb5eb9ecf81e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "d5ab45d3-040c-46c6-9aa7-45c75aed4a19": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "74c13cd2-5b9a-494f-beac-ea71fec14b56": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "96354ad8-1c33-42e8-ad2d-025c19be5a9d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "7804e3b4-a95a-4ca5-a391-fd9d10566b40": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "5436e298-f90d-4ad5-ae60-926e9ca9e9b8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "2d773d45-c828-46e8-bc09-fbaef45fbc16": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "1e3836d7-0375-4633-ba13-1a5d4611bdde": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "15f07ff7-ecab-4028-882c-f1276f530895": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "9e3ae758-c89d-4a84-8ae4-cc9593589042": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "d59eef05-25a5-416e-afea-7949601ef7d9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "8c355a8a-2fc0-4275-bfba-c9758a3a01a1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "f8d72f15-cb8a-46f7-b6e5-946cacba8af4": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "2ee81b88-e730-4ffa-a7a6-a89aaf327f47": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "8f837b4c-88c0-4f1c-9ab0-3947d838832e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "928e40a7-91ac-45c3-8d59-4d899fc49b83": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "21f76aa4-5026-47ec-b977-474280c81d74": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "c1cfb7db-5276-47ef-9c38-55a49ba90486": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "a4bbb066-e307-4314-8e5f-20af5d2d9bf0": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "87a0d864-3322-4509-bc59-b04d4d3947b9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "3e3397b7-7b78-4a46-aa31-2bd998b33348": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "92e57b45-f395-40c8-9c74-3116557eb6b8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "85cb9075-0c9b-4c2f-a8b7-61d16e1ccc7f": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "20119115-bd11-4c1a-8b03-9c1eed1fd1a7": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  },
+  "6c37989c-6a05-43b2-9827-72e9cb14f45c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Data-Shapes",
+    "packageVersion": "2022.2.103"
+  }
+}

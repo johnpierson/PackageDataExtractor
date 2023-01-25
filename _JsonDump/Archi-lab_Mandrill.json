@@ -1,0 +1,352 @@
+{
+  "Mandrill_UI.PdfFitModeUi, Mandrill_UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Mandrill_UI.PdfOrientationUi, Mandrill_UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Mandrill_UI.PdfSizeUi, Mandrill_UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Mandrill_UI.TnFontWeight, Mandrill_UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Mandrill_UI.TnFontStyle, Mandrill_UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Mandrill_UI.TnFontTransform, Mandrill_UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Mandrill.Html.MandrillHtmlNodeModel, Mandrill_UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Mandrill.Print.MandrillPrintNodeModel, Mandrill_UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Mandrill.ChromeWindow.MandrillReportNode, Mandrill_UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Mandrill.ChromeWindow.MandrillWindowNodeModel, Mandrill_UI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Report.Pdf.Style@string,string,string,string,int,int,int,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Text.Text.Create@string,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Text.Text.Style@DSCore.Color,var,int,int,double,string,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Image.Image.Create@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Image.Image.Style@var,int,int,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Legends.Legend.Style@DSCore.Color[],var,int,int,string,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Legends.Legend.Data@string[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Legends.Legend.Create@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.HorizontalBarChart.Style@DSCore.Color[],DSCore.Color,var,var,int,int,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.HorizontalBarChart.Data@string[],double[],int[],var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.HorizontalBarChart.DataFromCSV@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.HorizontalBarChart.Chart@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.NormalizedStackedBarChart.Style@DSCore.Color,DSCore.Color[],var,var,int,int,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.NormalizedStackedBarChart.Data@string[],var[][]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.NormalizedStackedBarChart.DataFromCSV@var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.NormalizedStackedBarChart.Chart@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.PieChart.Style@DSCore.Color,DSCore.Color[],var,var,int,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.PieChart.Data@string[],double[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.PieChart.DataFromCSV@var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.PieChart.Chart@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.ScatterPlotMatrix.Style@DSCore.Color[],var,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.ScatterPlotMatrix.Data@string[],var[][]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.ScatterPlotMatrix.DataFromCSV@var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.ScatterPlotMatrix.Chart@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.AreaChart.Style@DSCore.Color,var,var,int,int,string,int,double,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.AreaChart.Data@string[],double[],var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.AreaChart.DataFromCSV@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.AreaChart.Chart@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.BarChart.Style@DSCore.Color,DSCore.Color,var,var,int,int,string,int,bool,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.BarChart.Data@string[],double[],var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.BarChart.DataFromCSV@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.BarChart.Chart@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.DonutChart.Style@DSCore.Color,DSCore.Color[],var,var,int,bool,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.DonutChart.Data@string[],double[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.DonutChart.DataFromCSV@var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.DonutChart.Chart@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.GroupedBarChart.Style@DSCore.Color,DSCore.Color[],var,var,int,int,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.GroupedBarChart.Data@string[],var[][],var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.GroupedBarChart.DataFromCSV@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.GroupedBarChart.Chart@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.LineChart.Style@DSCore.Color,var,var,int,int,string,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.LineChart.Data@string[],double[],var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.LineChart.DataFromCSV@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.LineChart.Chart@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.MiscNodes.DataToJson@var,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.MiscNodes.Margins@int,int,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.MiscNodes.Domain@double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.MiscNodes.Address@int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.ParallelCoordinates.Style@DSCore.Color,var,var,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.ParallelCoordinates.Data@string[],var[][]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.ParallelCoordinates.DataFromCSV@var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.ParallelCoordinates.Chart@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.ScatterPlot.Style@DSCore.Color[],var,var,int,int,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.ScatterPlot.Data@string[],double[],double[],double[],int[],var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.ScatterPlot.DataFromCSV@var,var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.ScatterPlot.Chart@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.StackedBarChart.Style@DSCore.Color,DSCore.Color[],var,var,int,int,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.StackedBarChart.Data@string[],var[][],var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.StackedBarChart.DataFromCSV@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  },
+  "Charts.StackedBarChart.Chart@var,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Archi-lab_Mandrill",
+    "packageVersion": "2021.26.1"
+  }
+}

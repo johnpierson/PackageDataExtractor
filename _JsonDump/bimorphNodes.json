@@ -1,0 +1,402 @@
+{
+  "CAD.CurvesFromCADLayers@Revit.Elements.ImportInstance,string[],bool,string[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CAD.DetailCurvesFromCADLayers@Revit.Elements.ImportInstance,Revit.Elements.Views.View,string[],string[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CAD.SymbolicCurvesFromCADLayers@Revit.Elements.ImportInstance,string[],string[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CAD.PointsFromCADLayers@Revit.Elements.ImportInstance,string[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CADTextData.OriginPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CADTextData.Rotation": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CADTextData.LayerName": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CADTextData.TextValue": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CADTextData.FontTypeName": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CADTextData.Height": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CADTextData.WidthFactor": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CADTextData.IsBold": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CADTextData.IsItalic": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CADTextData.FontFile": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CADTextData.Color": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CADTextData.HorizontalAlign": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CADTextData.VerticalAlign": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "CADTextData.FromLayers@Revit.Elements.ImportInstance,string[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Curve.IntersectAll@Autodesk.DesignScript.Geometry.Curve[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Curve.SolidIntersection@Autodesk.DesignScript.Geometry.Solid,Autodesk.DesignScript.Geometry.Curve[],bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Curve.FindDuplicates@Autodesk.DesignScript.Geometry.Curve[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Results.CurveSolidIntersectionResult.Solid": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Results.CurveSolidIntersectionResult.Curve": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Results.CurveSolidIntersectionResult.CurveSegments": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Results.CurveSolidIntersectionResult.FailedToConvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Results.CurveDuplicatesResult.UniqueCurve": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Results.CurveDuplicatesResult.Duplicates": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Results.CurveElementDuplicatesResult.UniqueCurve": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Results.CurveElementDuplicatesResult.Duplicates": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Results.ElementIntersectionResult.Element": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Results.ElementIntersectionResult.IntersectingElements": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Results.ElementIntersectionResult.IsSupported": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Results.SolidIntersectionResult.Solid": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Results.SolidIntersectionResult.IntersectingElements": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Results.SolidIntersectionResult.FailedToConvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.BoundingBox.GetElementsInside@Autodesk.DesignScript.Geometry.BoundingBox,Revit.Elements.Element[],double": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.BoundingBox.GetElementsIntersect@Autodesk.DesignScript.Geometry.BoundingBox,Revit.Elements.Element[],double": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.CurveElement.FindDuplicates@Revit.Elements.CurveElement[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.Element.IntersectsElement@Revit.Elements.Element[],Revit.Elements.Element[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.Element.IntersectsSolid@Autodesk.DesignScript.Geometry.Solid[],Revit.Elements.Element[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.Element.IsElementSupported@Revit.Elements.Element": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.ImportInstance.LayerNames@Revit.Elements.ImportInstance": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.ImportInstance.LayerNamesInUse@Revit.Elements.ImportInstance": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.ImportInstance.SetObjectStyle@Revit.Elements.ImportInstance,string,int,DSCore.Color,Revit.Elements.LinePatternElement": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.ImportInstance.SetLayerVisibility@Revit.Elements.ImportInstance,Revit.Elements.Views.View,string,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.ImportInstance.ReportInstances@string,bool,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.ImportInstanceReport.ImportInstance": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.ImportInstanceReport.LevelHost": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.ImportInstanceReport.OwnerView": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.ImportInstanceReport.WorksetName": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.ImportInstanceReport.Path": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.ImportInstanceReport.LinkStatus": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.ImportInstanceReport.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.ImportInstanceReport.IsLinked": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LineStyle.AllAttributes@bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LineStyle.Create@string,int,Revit.Elements.LinePatternElement,DSCore.Color": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LineStyleAttributes.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LineStyleAttributes.Color": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LineStyleAttributes.Weight": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LineStyleAttributes.GraphicsStyle": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LineStyleAttributes.LinePatternElement": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LinkElement.LinkInstanceId": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LinkElement.TotalTransform": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LinkElement.Element": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LinkElement.Document": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LinkElement.BoundingBox": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LinkElement.Location": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LinkElement.ElementType": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LinkElement.Solids": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LinkElement.Faces": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LinkElement.GetParameterValueByName@Revit.LinkElement,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LinkElement.CopyToActiveDocument@Revit.LinkElement[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LinkElement.OfCategory@Revit.Elements.Element,Revit.Elements.Category": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.LinkElement.ByRayBounce@Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Vector,Revit.Elements.Views.View3D,Revit.Elements.Category,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.Schedule.GetData@Revit.Elements.Element,bool,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.Schedule.GetDataColumns@Revit.Elements.Element,int[],bool,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.Schedule.GetDataRows@Revit.Elements.Element,int[],bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.Sheet.Duplicate@Revit.Elements.Views.Sheet[],bool,bool,int,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.Sheet.FromSchedule@Revit.Elements.Views.ScheduleView,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  },
+  "Revit.Sheet.RenumberRename@Revit.Elements.Views.Sheet,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "bimorphNodes",
+    "packageVersion": "4.2.4"
+  }
+}

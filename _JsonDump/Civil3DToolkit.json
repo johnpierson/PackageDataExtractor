@@ -1,0 +1,4717 @@
+{
+  "Collaboration.Forge.ThreeLeggedToken, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.ThreeLeggedTokenURL, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.PipeNetworks, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.PartsLists, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.PartFamilies, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.PartSizes, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.StructureByName, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.PipeByName, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipeNetworks, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.FittingByName, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.AppurteananceByName, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PipeByName, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GISUI.SpatialOperationsDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GISUI.OdDataTypeDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.ObjectsSelection, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PickPoint, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PlotStyleTypesDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PaperUnitDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PropertyDataTypeDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PlotTypeDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PlotRotationDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.CellAlignmentDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.CellBorderDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LineTypesDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.GridLineStyleDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil3D.DynamoNodes.AlignmentTypesDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil3D.DynamoNodes.SurfaceNamesDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil3D.DynamoNodes.CorridorNameDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil3D.DynamoNodes.TargetOptionsDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil3D.DynamoNodes.AlignmentNamesDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil3D.DynamoNodes.AlignmentSegmentTypesDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil3D.DynamoNodes.AlignmentTransitionRegionTypesDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil3D.DynamoNodes.AlignmentAttainmentRegionTypesDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil3D.DynamoNodes.AlignmentCriticalStationTypesDropDown, Autodesk.Civil3DToolkitUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.RingType.L": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.RingType.Alpha": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.RingType.CenterCoordinateSystem": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.RingType.BackCoordinateSystem": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.RingType.FrontCoordinateSystem": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.RingType.RingGeometry": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.RingType.SegmentsGeometry": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.RingType.ByDimensions@double,double,double,double,int,int,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.RingType.ByDimensionsAndSystem@double,double,double,double,int,double,Tunnel.RingSystem,double[][]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.RingSystem.Rectangular": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.RingSystem.Trapezoidal": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.RingSystem.Rhomboidal": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.L": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.L1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.L2": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.CenterCoordinateSystem": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.BackCoordinateSystem": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.FrontCoordinateSystem": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.RingGeometry": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.SegmentsGeometry": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.ByTypeAndSystem@Tunnel.RingType,Autodesk.DesignScript.Geometry.Curve,Autodesk.DesignScript.Geometry.CoordinateSystem": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.ByTypeAndAxisAndKeyPosition@Tunnel.RingType,Autodesk.DesignScript.Geometry.Curve,double,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.NextRing@Tunnel.Ring": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.NextRingElevationMin@Tunnel.Ring,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.NextRingByType@Tunnel.Ring,Tunnel.RingType": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.NextRingByTypeElevationMin@Tunnel.Ring,Tunnel.RingType,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.NextRingByKeyPosition@Tunnel.Ring,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.NextRingByTypeAndKeyPosition@Tunnel.Ring,int,Tunnel.RingType": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.FindKey@Tunnel.Ring,Tunnel.RingType,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.ParameterOnCurve@Tunnel.Ring": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.Lining@Tunnel.Ring,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.LiningByKeyPositions@Tunnel.Ring,int[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Tunnel.Ring.LiningAndElevationMin@Tunnel.Ring,int,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Photo.Photo.GpsLatitude": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Photo.Photo.GpsLongitude": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Photo.Photo.GpsAltitude": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Photo.Photo.GpsLongitudeRef": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Photo.Photo.GpsLatitudeRef": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Photo.Photo.GpsAltitudeRef": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Photo.Photo.GpsImgDir": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Photo.Photo.GpsImgDirRef": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Photo.Photo.ByFilePath@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Photo.Photo.Location@Collaboration.Photo.Photo,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Photo.Photo.Direction@Collaboration.Photo.Photo": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Photo.Photo.Angle@Collaboration.Photo.Photo": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.Json": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.Title": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.Id": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.Type": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.Hub": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.Project": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.Status": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.Identifier": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.TargetURN": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.TargetURN_StartingVersion": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.ContainerId": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.Pushpin": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.SheetName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.GetIssuesByFilter@Collaboration.Forge.Project,string,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.SetAttrituteByNameAndValue@Collaboration.BIM360.Issue,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Issue.SetAttritutesByNameAndValue@Collaboration.BIM360.Issue,DesignScript.Builtin.Dictionary": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Hub.Json": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Hub.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Hub.Type": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Hub.Id": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Hub.GetHubsByFilter@string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Hub.GetAllHubs@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Project.Json": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Project.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Project.Id": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Project.IssueContainerId": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Project.GetAllProjects@Collaboration.Forge.Hub": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Project.GetProjectsByFilter@Collaboration.Forge.Hub,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Pushpin.ExternalId": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Pushpin.ObjectId": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Pushpin.Type": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Pushpin.Issue": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.BIM360.Pushpin.Location": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Navisworks.View.Position": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Navisworks.View.Target": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Navisworks.View.Guid": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Navisworks.View.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Navisworks.View.ByNamePositionAndTarget@string,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Navisworks.View.BySectionView@Autodesk.Civil.DynamoNodes.SectionView,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Navisworks.View.BySectionViewWithBox@Autodesk.Civil.DynamoNodes.SectionView,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Navisworks.View.ByNameAndPlane@string,Autodesk.DesignScript.Geometry.Plane,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.SectionView.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.SectionView.ToModel@Autodesk.Civil.DynamoNodes.SectionView": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.SectionView.ToProject@Autodesk.Civil.DynamoNodes.SectionView": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.SectionView.GetSectionViews@Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.SectionView.Extents": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.SectionView.Station": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.SectionView.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.SectionView.FindOffsetAndElevationAtXY@double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Navisworks.Exchange.ByViews@Collaboration.Navisworks.View[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Navisworks.Exchange.WriteToXML@Collaboration.Navisworks.Exchange,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Token.Json": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Token.AccesToken": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Token.ByClientIdAndSecret@string,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Folder.Json": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Folder.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Folder.Id": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Folder.DisplayName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Folder.Search@Collaboration.Forge.Folder,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Folder.GetContentInFolder@Collaboration.Forge.Folder": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Folder.GetParentFolder@Collaboration.Forge.Folder": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Folder.GetTopFolders@Collaboration.Forge.Project": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Item.Json": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Item.Type": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Item.Id": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Item.DisplayName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Item.ById@Collaboration.Forge.Project,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Item.GetParentFolder@Collaboration.Forge.Item": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Item.GetTip@Collaboration.Forge.Item": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Item.GetVersions@Collaboration.Forge.Item": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Version.Json": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Version.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Version.Id": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Version.DisplayName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Version.VersionNumber": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Version.SourceFileName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Version.ViewableName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Version.ViewableGuid": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Collaboration.Forge.Version.GetItemId@Collaboration.Forge.Version": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.QTO.GetQTOReport@string,string,string,string,string,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.Section.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.Section.SourceName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.Section.SourceType": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.Section.GetGeometry@Autodesk.Civil.DynamoNodes.Section": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.Section.GetSourceObject@Autodesk.Civil.DynamoNodes.Section": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.Section.GetSections@Autodesk.Civil.DynamoNodes.SectionView": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.StationFormatting@double,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetBearingByStationOffset@Autodesk.Civil.DynamoNodes.Alignment,double,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetBearingByPoint@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.DesignScript.Geometry.Point,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetStationOffsetElevationByPoint@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.PIStations@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.PIStationOffset@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.PIPoints@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.Reverse@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.SuperTransStations@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.CurveAtIncrement@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.CurveByCurvature@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetStationEquations@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetOffsetAlignments@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.OffsetTargetCurve@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.RangeEnd@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.RangeStart@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetSampleLineStations@Autodesk.Civil.DynamoNodes.Alignment,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.SampleLineByStation@Autodesk.Civil.DynamoNodes.Alignment,string,double,string,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetSlopeAtStation@Autodesk.Civil.DynamoNodes.Alignment,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetCantCriticalStations@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetCantInfoAtStation@Autodesk.Civil.DynamoNodes.Alignment,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetInstantaneousRadiusAtStation@Autodesk.Civil.DynamoNodes.Alignment,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetSubEntitiesAtStation@Autodesk.Civil.DynamoNodes.Alignment,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetSubEntities@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetGeometry@Autodesk.Civil.DynamoNodes.Alignment,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.AddProfileByName@Autodesk.Civil.DynamoNodes.Alignment,string,string,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.AddProfileBySurface@Autodesk.Civil.DynamoNodes.Alignment,string,string,string,string,double,double,double,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.CreateAlignmentByPolyline@string,Autodesk.AutoCAD.DynamoNodes.Polyline,string,string,string,string,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.CreateAlignmentPlaceholder@string,string,string,string,string,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetSuperelevationData@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.AddSuperelevationData@Autodesk.Civil.DynamoNodes.Alignment,double,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.RemoveSuperelevationAtStation@Autodesk.Civil.DynamoNodes.Alignment,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetSupereleavationDataAtStation@Autodesk.Civil.DynamoNodes.Alignment,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.GetSuperelevationCurves@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentExtensions.AddSuperByGeometry@Autodesk.Civil.DynamoNodes.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity.CurveGroupIndex": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity.CurveGroupSubEntityIndex": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity.EndPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity.EndStation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity.Length": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity.StartPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity.StartStation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity.SubEntityType": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity.EntityId": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity.After": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity.Before": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.TransitionRegionType": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.TransitionDescription": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.CurveName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.StationType": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.Station": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.GetSlope@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.SetSlope@string,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.BreakSegment@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.GetSmoothingLength@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.IsGradeBreak@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.RemoveGradeBreak@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.SetSmoothingLength@string,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.SetStation@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationData.SetTransitionDescription@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationCurve.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationCurve.EndStation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationCurve.StartStation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationCurve.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationCurve.SuperelevationData": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationCurve.CANTData": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentSuperelevationDataExtensions.AlignmentSuperelevationCurve.SetName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.TinSurfaceExtensions.GetMesh@Autodesk.Civil.DynamoNodes.TinSurface": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.TinSurfaceExtensions.AddStandardBreaklines@Autodesk.Civil.DynamoNodes.TinSurface,Autodesk.AutoCAD.DynamoNodes.Object[],double,double,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.TinSurfaceExtensions.AddNonDestructiveBreaklines@Autodesk.Civil.DynamoNodes.TinSurface,Autodesk.AutoCAD.DynamoNodes.Object[],double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.TinSurfaceExtensions.AddProximityBreaklines@Autodesk.Civil.DynamoNodes.TinSurface,Autodesk.AutoCAD.DynamoNodes.Object[],double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.TinSurfaceExtensions.AddWallBreaklines@Autodesk.Civil.DynamoNodes.TinSurface,Autodesk.AutoCAD.DynamoNodes.Object[],double,double,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.TinSurfaceExtensions.ExtractBorder@Autodesk.Civil.DynamoNodes.TinSurface": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.TinSurfaceExtensions.ExtractContoursByInterval@Autodesk.Civil.DynamoNodes.TinSurface,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.TinSurfaceExtensions.ExtractContoursByElevationsInterval@Autodesk.Civil.DynamoNodes.TinSurface,double,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.TinSurfaceExtensions.ExtractWatershed@Autodesk.Civil.DynamoNodes.TinSurface": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.TinSurfaceExtensions.CreateSolids@Autodesk.Civil.DynamoNodes.TinSurface,double,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.TinSurfaceExtensions.CreateSolidsAtFixedElevation@Autodesk.Civil.DynamoNodes.TinSurface,double,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.TinSurfaceExtensions.CreateSolidsAtSurface@Autodesk.Civil.DynamoNodes.TinSurface,Autodesk.Civil.DynamoNodes.TinSurface,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.TinSurfaceExtensions.Crop@Autodesk.Civil.DynamoNodes.TinSurface,string,Autodesk.AutoCAD.DynamoNodes.Object[],Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.PVIs@Autodesk.Civil.DynamoNodes.Profile": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.MinElevation@Autodesk.Civil.DynamoNodes.Profile,double,double,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.MaxElevation@Autodesk.Civil.DynamoNodes.Profile,double,double,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.HighLowPoints@Autodesk.Civil.DynamoNodes.Profile,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.ProfileEntities@Autodesk.Civil.DynamoNodes.Profile": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.AddPVI@Autodesk.Civil.DynamoNodes.Profile,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.AddPVIArc@Autodesk.Civil.DynamoNodes.Profile,double,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.AddPVIAsymParabola@Autodesk.Civil.DynamoNodes.Profile,double,double,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.AddPVISymParabola@Autodesk.Civil.DynamoNodes.Profile,double,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.AddFreeAsymmetricParabolaByPVIAndLengths@Autodesk.Civil.DynamoNodes.Profile,Autodesk.Civil.DynamoNodes.PVI,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.AddFreeCircularCurveByPVIAndLength@Autodesk.Civil.DynamoNodes.Profile,Autodesk.Civil.DynamoNodes.PVI,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.AddFreeCircularCurveByPVIAndRadius@Autodesk.Civil.DynamoNodes.Profile,Autodesk.Civil.DynamoNodes.PVI,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.AddFreeSymmetricParabolaByK@Autodesk.Civil.DynamoNodes.Profile,Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity,Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity,int,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.AddFreeSymmetricParabolaByLength@Autodesk.Civil.DynamoNodes.Profile,Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity,Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity,int,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.AddFreeSymmetricParabolaByPVIAndCurveLength@Autodesk.Civil.DynamoNodes.Profile,Autodesk.Civil.DynamoNodes.PVI,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.AddFreeSymmetricParabolaByPVIAndK@Autodesk.Civil.DynamoNodes.Profile,Autodesk.Civil.DynamoNodes.PVI,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.AddFreeSymmetricParabolaByRadius@Autodesk.Civil.DynamoNodes.Profile,Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity,Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity,int,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileExtensions.AddFreeTangent@Autodesk.Civil.DynamoNodes.Profile,Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity,Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PVI.Elevation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PVI.GradeIn": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PVI.GradeOut": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PVI.HeadlightSightDistance": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PVI.PassingSightDistance": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PVI.PVIType": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PVI.Station": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PVI.StoppingSightDistance": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.Constraint1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.Constraint2": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.HighestDesignSpeed": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.Length": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.MinimumKValueHSD": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.MinimumKValuePSD": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.MinimumKValueSSD": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.EntityType": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.After": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.Before": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.StartStation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.StartElevation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.EndStation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.EndElevation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.GetRadius": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileEntitiesExtensions.ProfileEntity.GetHighLowPointInfo": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileView.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileView.Alignment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileView.StartStation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileView.EndStation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileView.GetProfileViews@Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileView.Extents": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileView.FindStationAndElevationAtXY@double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileView.ByAlignmentPointName@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.DesignScript.Geometry.Point,string,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileView.SetStartStation@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.ProfileView.SetEndStation@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureFitting.PipeNetworkName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureFitting.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureFitting.StartPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureFitting.EndPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureFitting.Material": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureFitting.PartDescription": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureFitting.Curves": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureFitting.Solid": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureFitting.SetLocation@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.PipeNetworkName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.StartPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.EndPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.MidPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.IsLinear": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.EndFitting": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.StartFitting": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.InnerDiameter": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.OuterDiameter": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.Length2DCenterToCenter": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.Length3DCenterToCenter": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.Material": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.PartDescription": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.Radius": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.Slope": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.WallThickness": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.StartElevation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.EndElevation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.StartInvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.EndInvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.StartObvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.EndObvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.ActualStartInvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.ActualEndInvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.ActualStartObvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.ActualEndObvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.Curve": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.Curve2D": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.Solid": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.SetStartPoint@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipe.SetEndPoint@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipeNetwork.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipeNetwork.GetPipesFittings": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipeNetwork.SetRefSurface@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressurePipeNetwork.SetRefAlignment@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureAppurtenance.PipeNetworkName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureAppurtenance.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureAppurtenance.StartPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureAppurtenance.EndPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureAppurtenance.Material": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureAppurtenance.PartDescription": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureAppurtenance.Curves": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureAppurtenance.Solid": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PressurePipeNetworks.PressureAppurtenance.SetLocation@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Part.GetPartData@Autodesk.Civil.DynamoNodes.CivilObject": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Part.SetPartDataValueByName@Autodesk.Civil.DynamoNodes.CivilObject,string,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.PipeNetworkName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.StartPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.EndPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.BarrelPipeClearance": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.Shape": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.ConeHeight": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.Cover": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.OuterDiameterOrWidth": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.FloorThickness": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.Frame": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.FrameDiameter": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.FrameHeight": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.Grate": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.Height": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.InnerDiameterOrWidth": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.InnerLength": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.Length": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.Material": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.Offset": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.PipeLowestBottomDepth": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.PipeUpperTopDepth": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.PartDescription": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.PartSizeName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.PartSize": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.PartSubType": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.PartType": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.AlignmentReference": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SurfaceReference": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.RimElevation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.RimToSumpHeight": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.Rotation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SumpElevation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.Station": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SumpDepth": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.WallThickness": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.Solid": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.Geometry": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SetLocation@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SetRotation@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SetSize@Autodesk.Civil.DynamoNodes.PipeNetworks.PartSize": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SetSizeByInnerDimension@double,bool,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SetSumpElevation@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SetSumpDepth@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SetRimElevation@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SetRimToSumpHeight@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SetSurfaceAdjustmentValue@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SetRefSurface@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SetRefAlignment@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.SetAutomaticRimSurfaceAdjustment@bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Structure.GetConnectedPipes": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.PipeNetworkName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.StartPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.EndPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.MidPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.StartAngle": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.EndAngle": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.Center": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.IsLinear": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.Shape": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.CoverOfEndpoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.CoverOfStartPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.EndOffset": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.EndStation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.EndStructure": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.HGLDown": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.HGLUp": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.InnerDiameterOrWidth": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.InnerHeight": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.Length2DCenterToCenter": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.Length2DToInsideEdge": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.Length3DCenterToCenter": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.Length3DToInsideEdge": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.Material": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.MaximumCover": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.MinimumCover": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.OuterDiameterOrWidth": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.OuterHeight": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.PartDescription": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.PartSizeName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.PartSize": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.PartSubType": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.PartType": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.Radius": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.Slope": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.StartOffset": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.StartStation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.StartStructure": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.WallThickness": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.StartInvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.ActualStartInvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.EndInvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.ActualEndInvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.StartObvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.EndObvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.ActualStartObvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.ActualEndObvert": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.Curve": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.Curve2D": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.Solid": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.Geometry": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.AlignmentReference": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.SurfaceReference": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.ConnectStartToStructure@Autodesk.Civil.DynamoNodes.PipeNetworks.Structure": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.ConnectEndToStructure@Autodesk.Civil.DynamoNodes.PipeNetworks.Structure": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.ConnectToPipe@Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe,Autodesk.Civil.DynamoNodes.PipeNetworks.PartSize,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.SetStartPoint@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.SetInverts@double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.SetInvertAtLocation@int,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.SetEndPoint@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.SetSize@Autodesk.Civil.DynamoNodes.PipeNetworks.PartSize": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.SetSizeByInnerDimension@double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.SetRefSurface@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Pipe.SetRefAlignment@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Selection.PartsListByName@Autodesk.AutoCAD.DynamoNodes.Document,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Selection.PartFamilyByName@Autodesk.Civil.DynamoNodes.PipeNetworks.PartsList,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.Selection.PartSizeByName@Autodesk.Civil.DynamoNodes.PipeNetworks.PartFamily,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.PipeNetwork.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.PipeNetwork.PartsList": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.PipeNetwork.GetPipesStructures": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.PipeNetwork.ByName@Autodesk.AutoCAD.DynamoNodes.Document,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.PipeNetwork.AddPipeByCurve@Autodesk.Civil.DynamoNodes.PipeNetworks.PartSize,Autodesk.DesignScript.Geometry.Curve,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.PipeNetwork.AddStructureByPoint@Autodesk.Civil.DynamoNodes.PipeNetworks.PartSize,Autodesk.DesignScript.Geometry.Point,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.PipeNetwork.SetRefSurface@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.PipeNetwork.SetRefAlignment@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.PipeNetworks.PipeNetwork.SetPartsList@Autodesk.Civil.DynamoNodes.PipeNetworks.PartsList": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Site.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Site.StyleName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Site.ByName@Autodesk.AutoCAD.DynamoNodes.Document,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Site.GetSites@Autodesk.AutoCAD.DynamoNodes.Document": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Site.GetParcels": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Site.GetFeatureLines": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Site.GetAlignments": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Parcel.Number": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Parcel.Centroid": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Parcel.AreaSelectionLabelLocation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Parcel.Area": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Parcel.StyleName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Parcel.Geometry": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Parcel.ByObject@Autodesk.Civil.DynamoNodes.CivilObject": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Parcel.GetUserDefinedProperties": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Parcel.GetUserDefinedPropertyValueByName@string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.Parcel.SetUserDefinedPropertyValueByName@string,string,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.PIPointsCount": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.PointsCount": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.ElevationPointsCount": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.Length2D": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.Length3D": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.MinElevation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.MaxElevation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.MinGrade": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.MaxGrade": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.StyleName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.SiteName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.PolyCurve": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.ByObject@Autodesk.Civil.DynamoNodes.CivilObject": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.ByName@Autodesk.AutoCAD.DynamoNodes.Document,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.GetAllPoints": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.GetPIPoints": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.GetElevationPoints": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.ByPolyCurve@string,Autodesk.DesignScript.Geometry.PolyCurve,Autodesk.Civil.DynamoNodes.LandDevelopment.Site,string,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.SetElevationFromSurface@Autodesk.Civil.DynamoNodes.Surface,bool,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.SetPointAbsoluteElevationByIndex@int,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.SetPointRelativeElevationByIndex@int,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.Get3dDistanceByPoint@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.Get2dDistanceByPoint@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.GetPointByDistance@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.GetDeflectionAngleByPoint@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.GetGradeInByPoint@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.GetGradeOutByPoint@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.InsertPIPoint@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.InsertElevationPoint@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.GetCoordinateSystemByDistance@double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.GetDistanceOffsetElevationByPoint@Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.FeatureLine.GetRefinedPolyCurve@int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetStyle@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetLabelStyle@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetStyle@Autodesk.Civil.DynamoNodes.CogoPoint,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetLabelStyle@Autodesk.Civil.DynamoNodes.CogoPoint,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetName@Autodesk.Civil.DynamoNodes.CogoPoint,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetName@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetNumber@Autodesk.Civil.DynamoNodes.CogoPoint,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetNumber@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetDescription@Autodesk.Civil.DynamoNodes.CogoPoint,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetDescription@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetGridNorthing@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetGridNorthing@Autodesk.Civil.DynamoNodes.CogoPoint,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetGridEasting@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetGridEasting@Autodesk.Civil.DynamoNodes.CogoPoint,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetNorthing@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetNorthing@Autodesk.Civil.DynamoNodes.CogoPoint,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetEasting@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetEasting@Autodesk.Civil.DynamoNodes.CogoPoint,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetElevation@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetElevation@Autodesk.Civil.DynamoNodes.CogoPoint,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetLatitude@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetLatitude@Autodesk.Civil.DynamoNodes.CogoPoint,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetLongitude@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetLongitude@Autodesk.Civil.DynamoNodes.CogoPoint,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetScaleZ@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetScaleZ@Autodesk.Civil.DynamoNodes.CogoPoint,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetScaleXY@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetScaleXY@Autodesk.Civil.DynamoNodes.CogoPoint,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetLabelRotation@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetLabelRotation@Autodesk.Civil.DynamoNodes.CogoPoint,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetMarkerRotation@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetMarkerRotation@Autodesk.Civil.DynamoNodes.CogoPoint,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetConvergence@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetScale@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.IsSurveyPoint@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.CogoPointGroupByCogoPoint@Autodesk.Civil.DynamoNodes.CogoPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.GetUserDefinedPropertyValueByName@Autodesk.Civil.DynamoNodes.CogoPoint,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetUserDefinedPropertyValueByName@Autodesk.Civil.DynamoNodes.CogoPoint,string,string,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.CreateUDPClassification@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.RemoveUDPClassification@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.CreateUDP@string,string,int,bool,string,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetUDPEnum@string,string,string[],string,bool,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.RemoveUDP@string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.LandDevelopment.CogoPointExtensions.SetUDPDefaultValue@string,string,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.MapLayer.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.MapLayer.GetFeaturesByTextFilter@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.MapLayer.GetFeaturesBySpatialFilter@Autodesk.DesignScript.Geometry.Curve,Autodesk.Civil.DynamoNodes.GIS.MapLayer_SpatialOperations": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.MapFeature.Id": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.MapFeature.Layer": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.MapFeature.Properties": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.MapFeature.Geometry": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.MapFeature.SetPropertyValueByName@string,var,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.MapFeature.GetPropertyValueByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.Map.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.Map.Layers": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.Map.Current": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.Map.GetLayerByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.Map.LatLongToXY@Autodesk.AutoCAD.DynamoNodes.Document,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.Map.GetRange@Autodesk.AutoCAD.DynamoNodes.Document": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.Map.LatLongToPoint@Autodesk.AutoCAD.DynamoNodes.Document,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.Map.XYToLatLong@Autodesk.AutoCAD.DynamoNodes.Document,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.MapProperty.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.MapProperty.Type": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.MapProperty.Value": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdTable.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdTable.Description": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdTable.GetOdTables": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdTable.GetOdTableByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdTable.GetOdFields": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdTable.GetOdFieldByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdTable.GetObjectOdRecords@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdTable.AddTable@string,Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdField[],string,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdTable.RemoveTableByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdTable.RenameTable@string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdField.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdField.Type": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdField.Description": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdField.Index": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdField.Create@string,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdRecord.Values": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdRecord.Create@Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdTable,Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdRecord.GetValueByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.GIS.ObjectData.OdRecord.SetValueByName@string,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Vector": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Vector,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Vector,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.DesignScript.Geometry.Point,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,double,bool,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedLineOrCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Vector,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Vector,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Vector": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedLinesOrCurves@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.DesignScript.Geometry.Curve": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedLine@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedLine@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedLine@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedSpiral@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedSpiral@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,double,double,bool,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedSpiral@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,double,double,double,bool,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedSpiral@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,double,double,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFixedSpiral@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,double,double,double,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatingArcWithSpiral@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,int,double,int,double,Autodesk.DesignScript.Geometry.Point,bool,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatingArcWithSpiral@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,int,double,int,double,double,bool,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatingCSS@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,double,double,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatingCSS@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,double,Autodesk.DesignScript.Geometry.Point,double,double,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatingCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,bool,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Vector": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatingCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,bool,Autodesk.DesignScript.Geometry.Point,double,bool,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatingCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,bool,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatingCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,bool,double,double,bool,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatingLine@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,bool,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatingLine@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,bool,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatingLineWithSpiral@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,int,double,Autodesk.DesignScript.Geometry.Point,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatingLineWithSpiral@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,int,double,double,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatingSSC@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,double,double,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatingSSC@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,double,double,double,Autodesk.DesignScript.Geometry.Point,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFloatSpiral@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,bool,double,double,bool,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFreeCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFreeCurve@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,double,int,bool,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFreeLine@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFreeSCS@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,double,double,int,double,bool,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFreeSCSCS@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFreeSCSSCS@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFreeSpiral@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,double,int,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFreeSSBetweenCurves@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,double,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFreeSSBetweenTangents@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,double,double,int,bool,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFreeSTS@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,double,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentEntitiesExtensions.AlignmentEntities.AddFreeSTS@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,Autodesk.Civil.DynamoNodes.AlignmentSubEntitiesExtensions.AlignmentSubEntity,double,double,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSSCSByArc1Angle@double,double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSSCSByArc1Length@double,double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSSCSByArc1PassPt@Autodesk.DesignScript.Geometry.Point,double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSSCSByArc2Angle@double,double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSSCSByArc2Length@double,double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSSCSByArc2PassPt@Autodesk.DesignScript.Geometry.Point,double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSSCSByEndPoint@Autodesk.DesignScript.Geometry.Point,double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSSCSByStartPoint@Autodesk.DesignScript.Geometry.Point,double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSCSByArc1Angle@double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSCSByArc1Length@double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSCSByArc1Length@Autodesk.DesignScript.Geometry.Point,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSCSByArc2Angle@double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSCSByArc2Length@double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSCSByArc2PassPt@Autodesk.DesignScript.Geometry.Point,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSCSByEndPoint@Autodesk.DesignScript.Geometry.Point,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSCSByStartPoint@Autodesk.DesignScript.Geometry.Point,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSCSByTan1Length@double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.AlignmentConstraintsExtensions.AlignmentConstraints.SCSCSByTan2Length@double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.VisibilityChecks.VisibilityChecks.ByAlignmentProfile@Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.Profile,Autodesk.Civil.DynamoNodes.Surface[],double,double,double,double,double,double,double,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Assembly.Type": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Assembly.IsUsed": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Assembly.GetAssemblies": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Assembly.GetAssemblyByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Assembly.ByNamePoint@string,Autodesk.DesignScript.Geometry.Point,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Assembly.AddSubassembly@string,string,string,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Assembly.GetGroups": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Assembly.GetOffsetAssemblies": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Assembly.GetGroupByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.AssemblyGroup.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.AssemblyGroup.Assembly": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.AssemblyGroup.GetSubassemblies": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.AssemblyGroup.GetSubassemblyByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.OffsetAssembly.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.OffsetAssembly.Offset": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.OffsetAssembly.Assembly": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.OffsetAssembly.GetGroups": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.OffsetAssembly.GetGroupByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Subassembly.Side": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Subassembly.HasSide": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Subassembly.HasParent": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Subassembly.Origin": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Subassembly.Points": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Subassembly.Links": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Subassembly.Shapes": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Subassembly.Parameters": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Subassembly.GetSubassemblies": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Subassembly.GetSubassembliesByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Subassembly.ImportStockSubassembly@string,string,string,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Subassembly.ImportSubassembly@string,string,Autodesk.DesignScript.Geometry.Point,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Subassembly.GetParameterValueByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.Subassembly.SetParameterValueByName@string,var,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyPoint.Codes": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyPoint.Index": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyPoint.Elevation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyPoint.Offset": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyPoint.IsHidden": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyPoint.Station": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyPoint.IsLoopPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyLink.Codes": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyLink.Index": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyLink.Points": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyShape.Codes": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyShape.Index": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyShape.Links": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkSubassemblyParameter.ParameterType": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkSubassemblyParameter.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkSubassemblyParameter.Comment": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkSubassemblyParameter.Description": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkSubassemblyParameter.Order": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkSubassemblyParameter.Access": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkSubassemblyParameter.IsReadOnly": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkSubassemblyParameter.Value": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkSubassemblyParameter.Subassembly": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkSubassemblyParameter.SetValue@var,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyTargetInfo.TargetType": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyTargetInfo.DisplayName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyTargetInfo.TargetToOption": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyTargetInfo.SubassemblyName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyTargetInfo.LogicalName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyTargetInfo.AssemblyGroupName": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyTargetInfo.Targets": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyTargetInfo.SetTargets@Autodesk.AutoCAD.DynamoNodes.Object[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyTargetInfo.SetTargetsOption@int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.GetTkFeatureLines@Autodesk.Civil.DynamoNodes.Baseline": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.GetTkFeatureLines@Autodesk.Civil.DynamoNodes.Corridor": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.GetTkFeatureLinesByCode@Autodesk.Civil.DynamoNodes.Baseline,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.GetTkFeatureLinesByCode@Autodesk.Civil.DynamoNodes.Corridor,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.ByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.ByAlignmentProfile@string,Autodesk.Civil.DynamoNodes.Alignment,Autodesk.Civil.DynamoNodes.Profile,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.ByAlignmentProfileNames@string,string,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.AddBaseline@Autodesk.Civil.DynamoNodes.Corridor,string,string,string,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.AddRegion@Autodesk.Civil.DynamoNodes.Baseline,string,string,double,double,double,double,double,double,double,int,int,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.AddStationToRegion@Autodesk.Civil.DynamoNodes.BaselineRegion,double,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.AddStationToBaseline@Autodesk.Civil.DynamoNodes.Baseline,double,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.AddStationToCorridor@Autodesk.Civil.DynamoNodes.Corridor,double,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.GetAdditionalStations@Autodesk.Civil.DynamoNodes.BaselineRegion": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.ClearAdditionalStations@Autodesk.Civil.DynamoNodes.BaselineRegion,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.DeleteStation@Autodesk.Civil.DynamoNodes.BaselineRegion,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.GetOverriddenStations@Autodesk.Civil.DynamoNodes.BaselineRegion": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.RemoveOverriddenStation@Autodesk.Civil.DynamoNodes.BaselineRegion,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.SetStartStation@Autodesk.Civil.DynamoNodes.BaselineRegion,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.SetEndStation@Autodesk.Civil.DynamoNodes.BaselineRegion,double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.SetRegionName@Autodesk.Civil.DynamoNodes.BaselineRegion,string,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.GetAssembly@Autodesk.Civil.DynamoNodes.BaselineRegion": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.SetAssembly@Autodesk.Civil.DynamoNodes.BaselineRegion,Autodesk.Civil.DynamoNodes.CorridorExtensions.Assembly,bool,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.GetRegionTargetInfos@Autodesk.Civil.DynamoNodes.BaselineRegion": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.GetTargetInfoByParameters@Autodesk.Civil.DynamoNodes.BaselineRegion,string,string,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.AddTargetInfoToRegion@Autodesk.Civil.DynamoNodes.BaselineRegion,Autodesk.Civil.DynamoNodes.CorridorExtensions.SubassemblyTargetInfo,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.SetFrequency@Autodesk.Civil.DynamoNodes.BaselineRegion,bool,bool,bool,bool,bool,bool,double,double,double,double,double,double,double,int,int,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.MatchRegions@Autodesk.Civil.DynamoNodes.BaselineRegion,Autodesk.Civil.DynamoNodes.BaselineRegion,int,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.MergeRegions@Autodesk.Civil.DynamoNodes.BaselineRegion,bool,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.SplitRegion@Autodesk.Civil.DynamoNodes.BaselineRegion,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.CorridorExtensions.GetRegionByName@Autodesk.Civil.DynamoNodes.Baseline,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkCorridorFeatureLine.Code": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkCorridorFeatureLine.Points": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkCorridorFeatureLine.StartStation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkCorridorFeatureLine.EndStation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkCorridorFeatureLine.Side": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkCorridorFeatureLine.PolyCurve": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkCorridorFeatureLine.ContainsStation@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkCorridorFeatureLine.OffsetElevationByStation@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkCorridorFeatureLine.CoordinateSystemByStation@double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkCorridorFeatureLine.ExportAsPolylines@var,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkCorridorFeatureLine.ExportAsAlignment@string,Autodesk.AutoCAD.DynamoNodes.Layer,Autodesk.Civil.DynamoNodes.LandDevelopment.Site,string,string,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.Civil.DynamoNodes.CorridorExtensions.TkCorridorFeatureLine.ExportAsGradingFeatureLine@string,Autodesk.AutoCAD.DynamoNodes.Layer,Autodesk.Civil.DynamoNodes.LandDevelopment.Site,bool,string,bool,double,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.BlockExtensions.GetParameters@Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.BlockExtensions.GetParameterByName@Autodesk.AutoCAD.DynamoNodes.Block,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.BlockExtensions.SetParameterValueByName@Autodesk.AutoCAD.DynamoNodes.Block,string,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.BlockExtensions.Overkill@Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DBPoint.Geometry": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DBPoint.X": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DBPoint.Y": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DBPoint.Z": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DBPoint.ByObject@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DBPoint.ByGeometry@Autodesk.DesignScript.Geometry.Point,string,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PropertySetsExtensions.PropertySetDefinitionByParameters@string,string,string[],bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PropertySetsExtensions.PropertyDefinitionByParameters@Autodesk.AutoCAD.DynamoNodes.PropertySetDefinition,string,string,string,Autodesk.AutoCAD.DynamoNodes.TempPSE.ListDefinition": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PropertySetsExtensions.SetPropertyValue@Autodesk.AutoCAD.DynamoNodes.Property,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PropertySetsExtensions.SetPropertyValueByName@Autodesk.AutoCAD.DynamoNodes.Object,string,string,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.TempPSE.ListDefinition.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.TempPSE.ListDefinition.Items": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.TempPSE.ListDefinition.ByName@string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.TempPSE.ListDefinition.ByNameItems@string,string[],string[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.TempPSE.ListDefinition.GetItemByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.TempPSE.ListDefinition.AddItemByNameDescription@string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.TempPSE.ListDefinition.RemoveItemByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.Rows": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.Columns": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.Width": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.Height": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.BreakEnabled": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.Style": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.Position": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.Data": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.ByObject@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.ByPointData@Autodesk.DesignScript.Geometry.Point,var[][],double,double,double,string,string,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.SetStyle@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.SetValueByRowColumn@int,int,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.SetRowHeight@int,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.SetColumnWidth@int,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.SetContentColorByRowColumn@int,int,DSCore.Color": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.SetBackgroundColorByRowColumn@int,int,DSCore.Color": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.SetBorderByRowColumn@int,int,string,DSCore.Color,bool,double,double,string,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.AddColumns@int,double,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Table.AddRows@int,double,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PlotStyle.GetPlotStyles": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PlotStyle.IsPlotColorDependent": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PlotStyle.SetPlotStyles@string,string,string,string,bool,Autodesk.DesignScript.Geometry.Point,string,string,string,string,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PlotStyle.GetPlotStyleNames": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PlotStyle.GetPlotDevices": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PlotStyle.GetCanonicalMedia@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.MLeader.MText": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.MLeader.ByObject@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.MLeader.ByObjectMText@Autodesk.AutoCAD.DynamoNodes.Object,Autodesk.AutoCAD.DynamoNodes.Temp.MText,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.MLeader.ByObjectBlock@Autodesk.AutoCAD.DynamoNodes.Object,Autodesk.AutoCAD.DynamoNodes.Block,string,string,Autodesk.DesignScript.Geometry.Vector,string,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.MLeader.ByObjectText@Autodesk.AutoCAD.DynamoNodes.Object,string,Autodesk.DesignScript.Geometry.Vector,string,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.MLeader.ByObjectPoint@Autodesk.AutoCAD.DynamoNodes.Object,Autodesk.DesignScript.Geometry.Point,Autodesk.AutoCAD.DynamoNodes.Block,string,string,double,double,Autodesk.DesignScript.Geometry.Vector,string,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.MLeader.RemoveLeaderByIndex@int": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.MLeader.UseBackgroundFill@bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.MLeader.UseBackgroundColorFill@var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.MLeader.SetTextContent@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Temp.MText.ByObject@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Temp.MText.ByPointTextRotation@Autodesk.DesignScript.Geometry.Point,string,string,double,double,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Temp.MText.ByText@Autodesk.AutoCAD.DynamoNodes.Text,string,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.ObjectExtensions.AddHyperlink@Autodesk.AutoCAD.DynamoNodes.Object,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.ObjectExtensions.AddNotes@Autodesk.AutoCAD.DynamoNodes.Object,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.ObjectExtensions.AddReferenceDocuments@Autodesk.AutoCAD.DynamoNodes.Object,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.ObjectExtensions.GetMaterial@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.ObjectExtensions.SetMaterial@Autodesk.AutoCAD.DynamoNodes.Object,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.ObjectExtensions.GetParameters@var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.ObjectExtensions.SetParameterValueByName@var,string,var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.ObjectExtensions.GetParameterByName@var,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.ObjectExtensions.GetXData@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.ObjectExtensions.AddXData@Autodesk.AutoCAD.DynamoNodes.Object,string,int[],var[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.ObjectExtensions.RemoveXData@Autodesk.AutoCAD.DynamoNodes.Object,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LineExtensions.ByGeometry@Autodesk.DesignScript.Geometry.Line,string,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Hatch.Geometry": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Hatch.Pattern": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Hatch.Scale": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Hatch.Rotation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Hatch.ByObject@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Hatch.ByGeometry@Autodesk.DesignScript.Geometry.PolyCurve[],string,double,double,string,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DocumentExtensions.Regen@Autodesk.AutoCAD.DynamoNodes.Document": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DocumentExtensions.ObjectByHandle@Autodesk.AutoCAD.DynamoNodes.Document,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DocumentExtensions.ObjectHandle@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DocumentExtensions.SetStyle@Autodesk.AutoCAD.DynamoNodes.Object,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DocumentExtensions.GetStyle@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DocumentExtensions.GetDocumentStyles": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DocumentExtensions.AddNewTypes": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DocumentExtensions.GetCoordinateSystemCode@Autodesk.AutoCAD.DynamoNodes.Document": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DocumentExtensions.SetCoordinateSystemCode@Autodesk.AutoCAD.DynamoNodes.Document,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DocumentExtensions.GetLayouts@Autodesk.AutoCAD.DynamoNodes.Document": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DocumentExtensions.GetXRefs@Autodesk.AutoCAD.DynamoNodes.Document": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DocumentExtensions.GetRXClasses": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.DocumentExtensions.GetLandXMLCrossSectData@Autodesk.AutoCAD.DynamoNodes.Document,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Layout.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Layout.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Layout.PlotPaperMarginsMinPoint": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Layout.ByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Layout.ByObject@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Layout.SetName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Layout.GetViewports@Autodesk.AutoCAD.DynamoNodes.Layout": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Layout.GetViewportByPoint@Autodesk.AutoCAD.DynamoNodes.Layout,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.BlockReferenceExtensions.GetInsertionPoint@Autodesk.AutoCAD.DynamoNodes.BlockReference": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.BlockReferenceExtensions.ByGeometry@var[],Autodesk.DesignScript.Geometry.CoordinateSystem,string,string,Autodesk.AutoCAD.DynamoNodes.Block,bool,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.BlockReferenceExtensions.ByCoordinateSystem@Autodesk.AutoCAD.DynamoNodes.Block,Autodesk.DesignScript.Geometry.CoordinateSystem,string,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.BlockReferenceExtensions.AddHyperlink@Autodesk.AutoCAD.DynamoNodes.BlockReference,string,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.BlockReferenceExtensions.ByObject@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.BlockReferenceExtensions.SwapBlock@Autodesk.AutoCAD.DynamoNodes.BlockReference,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.BlockReferenceExtensions.GetDynamicBlockReferences@Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.BlockReferenceExtensions.GetGeometry@Autodesk.AutoCAD.DynamoNodes.BlockReference": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.Width": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.Height": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.Center": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.Scale": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.Elevation": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.FrontClipDistance": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.LensLength": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.Number": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.TwistAngle": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.ViewCenter": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.ViewTarget": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.ViewHeight": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.ViewDirection": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.CoordinateSystem": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.Boundary": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.ModelToPaperCS": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.PaperToModelCS": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Viewport.PointFromPaperToModelSpace@Autodesk.AutoCAD.DynamoNodes.Viewport,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PolylineExtensions.ObjectByGeometry@Autodesk.DesignScript.Geometry.PolyCurve,string,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PolylineExtensions.ObjectByTessellatedGeometry@Autodesk.DesignScript.Geometry.PolyCurve,double,string,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PolylineExtensions.GetGeometry@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PolylineExtensions.GetVertices@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.PolylineExtensions.Offset@Autodesk.AutoCAD.DynamoNodes.Polyline,double,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Legend.Items": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Legend.Auto@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Legend.ByItems@string,Autodesk.AutoCAD.DynamoNodes.LegendItem[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Legend.ToAutoCAD@Autodesk.DesignScript.Geometry.Point,string,double,double,double,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LegendItem.Layer": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LegendItem.Linetype": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LegendItem.LinetypeScale": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LegendItem.Text": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LegendItem.ByLayerLinetypeScale@string,string,string,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.ByNameColor@string,DSCore.Color": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.GetPlotStyle@Autodesk.AutoCAD.DynamoNodes.Layer": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.SetPlotStyle@Autodesk.AutoCAD.DynamoNodes.Layer,string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.SetIsOn@Autodesk.AutoCAD.DynamoNodes.Layer,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.SetIsFrozen@Autodesk.AutoCAD.DynamoNodes.Layer,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.IsHidden@Autodesk.AutoCAD.DynamoNodes.Layer": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.SetIsHidden@Autodesk.AutoCAD.DynamoNodes.Layer,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.IsLocked@Autodesk.AutoCAD.DynamoNodes.Layer": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.SetIsLocked@Autodesk.AutoCAD.DynamoNodes.Layer,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.IsPlottable@Autodesk.AutoCAD.DynamoNodes.Layer": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.SetIsPlottable@Autodesk.AutoCAD.DynamoNodes.Layer,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.IsReconciled@Autodesk.AutoCAD.DynamoNodes.Layer": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.SetIsReconciled@Autodesk.AutoCAD.DynamoNodes.Layer,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.IsUsed@Autodesk.AutoCAD.DynamoNodes.Layer": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.GetTransparency@Autodesk.AutoCAD.DynamoNodes.Layer": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.LayerExtensions.SetTransparency@Autodesk.AutoCAD.DynamoNodes.Layer,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Arc.Geometry": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Arc.ByObject@Autodesk.AutoCAD.DynamoNodes.Object": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Arc.ByGeometry@Autodesk.DesignScript.Geometry.Arc,string,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.Arc.ByThreePoints@Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,string,Autodesk.AutoCAD.DynamoNodes.Block": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.TempPSE.ListItem.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  },
+  "Autodesk.AutoCAD.DynamoNodes.TempPSE.ListItem.Description": {
+    "nodeType": "FunctionNode",
+    "packageName": "Civil3DToolkit",
+    "packageVersion": "1.1.32"
+  }
+}

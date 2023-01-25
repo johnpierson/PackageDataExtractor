@@ -1,0 +1,237 @@
+{
+  "Autodesk.Dynamo.MeshToolkit.Mesh.ImportFile@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.ByGeometry@Autodesk.DesignScript.Geometry.Geometry,double,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.ByVerticesAndIndices@Autodesk.DesignScript.Geometry.Point[],int[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Plane@Autodesk.DesignScript.Geometry.Point,double,double,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Cuboid@Autodesk.DesignScript.Geometry.Point,double,double,double,int,int,int": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Sphere@Autodesk.DesignScript.Geometry.Point,double,int,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Cone@Autodesk.DesignScript.Geometry.Point,double,double,double,int,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.ExtrudePolyCurve@Autodesk.DesignScript.Geometry.PolyCurve,double,Autodesk.DesignScript.Geometry.Vector,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.VertexCount": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.EdgeCount": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.TriangleCount": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Volume": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Area": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Vertices": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.VertexNormals": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.VertexIndicesByTri": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Edges": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Triangles": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Explode": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.TriangleNormals": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.TriangleCentroids": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.StrengthAnalysis": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.BooleanUnion@Autodesk.Dynamo.MeshToolkit.Mesh": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.BooleanDifference@Autodesk.Dynamo.MeshToolkit.Mesh": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.BooleanIntersection@Autodesk.Dynamo.MeshToolkit.Mesh": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Repair": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.CloseCracks": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.MakeWatertight": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.MakeHollow@int,double,double,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.GenerateSupport@double,double,double,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Reduce@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Remesh": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Smooth@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.PlaneCut@Autodesk.DesignScript.Geometry.Plane,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.ExportMeshes@string,Autodesk.Dynamo.MeshToolkit.Mesh[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Intersect@Autodesk.DesignScript.Geometry.Plane": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Mirror@Autodesk.DesignScript.Geometry.Plane": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Rotate@Autodesk.DesignScript.Geometry.Vector,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Scale@double": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Scale@double,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Translate@Autodesk.DesignScript.Geometry.Vector": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Translate@Autodesk.DesignScript.Geometry.Vector,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.Translate@double,double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.VerticesAsThreeNumbers": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.EdgesAsSixNumbers": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Mesh.TrianglesAsNineNumbers": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  },
+  "Autodesk.Dynamo.MeshToolkit.Display.MeshDisplay.ByMeshColor@Autodesk.Dynamo.MeshToolkit.Mesh,DSCore.Color[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "MeshToolkit",
+    "packageVersion": "3.0.0"
+  }
+}

@@ -1,0 +1,2242 @@
+{
+  "ba8cd7c7-346a-45c6-857e-e47800b80818": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f4181015-7167-4fb6-b23d-f6cff59ffc1a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d2b11c37-6e44-4479-beca-578b82cfe32e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "25478d38-ba0e-4dc7-826e-fe45f3f811c6": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c19b9768-4da1-4591-bde5-73c07bbfbe6c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2a75c2fa-c410-434d-87af-f9d59ee44c4b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "65f93a80-674c-4a98-9d0c-db3a138287e5": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "71d46826-ff9f-4bef-b0a8-aa944199ab7f": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "335463a8-f774-4d16-bb66-55ff7eaea076": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7ec4b275-ebb9-45de-a83e-8cb617076230": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "8b684072-0219-47ca-ba72-e058108b3d00": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7203b34a-da51-4672-8993-3591ebf9537d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c0d7ce38-395d-4655-90bc-3cbf9fdba03c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "3ae71275-450f-4074-a940-78b6110bf62d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "07f338f4-8b38-489d-9cf1-6ff6ec59d7bf": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "dbdaeffa-5703-4abc-b113-69597d8d6f24": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "477dc2e1-7fe6-422e-85a2-1660948e5a44": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "277a40e8-4916-4788-9f54-2fc26cb1b7dc": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4edfe226-55f3-4047-a203-bc44c92e3a17": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "647ce2c4-76f2-47c3-9eb8-06c5db5d89b1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "3df0961d-9d46-464f-9175-0a74eeb61bc1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "fdc98eeb-e9be-4c20-b9ae-1fa686636067": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "b2dfbdbe-9e4f-4f0b-9c4d-67ec462c31a2": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "dd45838d-610a-4d09-a716-7015daee29c3": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "17379fdb-8640-4126-8681-c9b1f596478e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4ede2c89-8311-4fdc-8e5c-9c3952c9a870": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "23934b80-5e06-4ca1-99d2-1d388b25ab56": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "05d3744c-a958-4e2e-94d2-d573b31b9510": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d1b052e9-5d34-4a15-ab75-e9c5122fcf81": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9a083579-9374-4005-996f-d29d601b1e52": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2b64c166-583d-420c-9c03-a4d54cb71863": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "30da6a80-b897-4d20-839c-69372565a613": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "16621b74-1cc2-4603-aff4-a4e7186cbf2a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "5504135c-3389-470b-a746-6ea992aa5e7d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "605e21d1-67ee-4465-8543-67f7781dd84d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "3ec3b120-b2f0-4cce-a2f7-9377b5de97fd": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ee78fb54-4615-4809-89cb-6d48c8aa968d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "de89b4c8-ede5-4ecb-bb7f-25a5605b2e6f": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "b84e9ee3-ddde-49ec-9a5e-62eb94d567ee": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7478de60-c425-4004-a9a5-3f207837feab": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "119fed50-cf6e-435e-9841-59ee18cb7d50": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "498ac300-3e75-429d-9b12-495a387293f1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "0755c987-62c0-4139-b9d4-1dbc7247ad5c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "80c55d8c-3319-4469-8098-4c7c1198e7d3": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "16311087-cf63-4f05-9057-6aa313487006": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4f71a288-db30-4156-ab1e-49dcc0380915": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "00b50cf6-517b-4916-bba8-f8dec3114859": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4b31f777-6700-496a-93dc-d9db6c0a1ff3": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "58f9bd74-bb7e-420d-a95b-8ca242296c2c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "85b883ee-01fb-4b2c-883e-e119c4c027ad": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "8aed2624-6c25-4e98-a848-ec8877b4b513": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ef128413-8fd0-410f-9447-dfd84dfe29e3": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "82ef267e-5ca1-4150-80ad-7eb2d995c85b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "0e7c0890-d604-4180-ab3f-804a1df8a7d6": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a9ad1519-73f2-4015-97e3-03c6b9a484eb": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4ac6f8b7-76af-4db4-9788-1f9e5d3db562": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ca22cd28-7f5a-4f03-8320-7579a2dff7bd": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7bb9dc5b-48c9-4a5a-a6bb-96c97a3f91e4": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "36ff8ab6-88df-4fa9-b4d6-230fc0750691": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1c62460c-247d-478c-b6fb-4875e1d2affe": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4d77b9ac-f502-403a-ab5c-78b7890cca1a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "36c62aac-2228-457e-aa6f-97d883578acd": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "352cd6f1-e5de-4343-bf0f-2f91c7a188b8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "22119c81-7843-45f8-9589-c90b11adaad9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d99d18bd-b2de-4d11-b2a4-368e51bc2408": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "64421362-7f21-47d8-a26a-4c7b56889f14": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f5d35dc8-dd27-4b9e-96cb-ca9ee61c6e6d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "952636b9-7335-4864-b6dd-c8d6a2eada0f": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "6315a707-503e-4065-948a-410bdb059454": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2e973ac4-f22c-4eec-bbf8-20db254633af": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "42a1639a-7e5d-4a2b-9b4b-08ba9916f008": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e70501a3-f931-4528-a406-cf38e75be6af": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "8b327fad-8303-4785-94af-083e75c8bbba": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "b8039cf6-a963-493f-81f6-bdb523ffc245": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "134846f2-02c9-40ce-8852-8d3146d8cc20": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "339cd350-3d18-462d-8417-32e3ac42fc28": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "49d6f667-4043-4248-bdbf-c5ee06672703": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "576880d2-5f2c-4e34-9183-359361aaa077": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "38ea5ab3-5af3-4395-ab54-939142172e9e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a6e9d934-59d5-4337-b4f7-2d46f505775e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4333cc78-bae5-455d-83f7-9d20ee546116": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "16c40381-47a7-45dd-ad28-a81b1569c1a8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2508111f-a0a4-4144-8c3d-0c7cfd82d90a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2e2cbc5e-bb43-4fe9-8925-b3626c0b8714": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c135da75-96f9-404d-9643-3b3d0b998dc1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "b5fa6e00-d029-473c-a9cd-76c7279cbc79": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "75daf972-c7ff-4c29-96d7-505b73596232": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "24214d3e-6159-4b2c-97b4-0a35a13518d9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "8a125c16-3046-41c5-93c6-21655987d70e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ac31babd-4423-43df-a93a-879e0c5b3375": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ed838b3b-440a-4d05-977a-bb30666db421": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "6a060a4d-58fe-4070-a0ce-44cc24c9802b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7f19e4a8-c7e0-4041-b57b-0b8d04a99b2c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e29fe7ec-cf80-41fd-a1a1-d55b01e15697": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "5238a365-de30-43a9-bd8a-b5ebd79e2fe6": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d96171f2-533a-49ac-b676-6bb131c57070": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "32a0772b-6acb-4f26-8543-373100819bed": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "61bda511-27e0-4a68-8668-c3ed1c24b62e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "5c549d57-80a8-48b9-8eb4-c93ecdbc30b7": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e5c5958c-016e-4efc-bb16-b3734d00a855": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f388dc80-5d34-4f52-84ba-91ce2633a0ed": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "129d96b7-0ce3-4a02-b99a-aa615f8ff0e0": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9e744762-ad3f-4e45-8e4e-1e77204584e6": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "13f3b4fb-56da-4788-892f-b64fc4baec17": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "136c1b88-f144-40f7-bf67-b16fe86a67dd": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ef9e6b6f-d604-43d4-85f8-825a7c7c6303": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a6d063a5-0ecf-400b-9c91-47023e8408d7": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "5e1ec0e8-c357-408d-9927-f95aab5d753e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "210d5eb1-8d30-4e0b-931b-08b9bcecbc7a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "070f6953-0854-4645-8eb5-9b4663673b79": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1fe7cd38-5704-4966-bb74-5d7d9245568c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "5aadb7c5-e2cc-4405-b937-e46149a59ed0": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4131ba2c-da9b-40bd-9ce1-b74a9ad5b5da": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "19fae88e-f6a6-4edf-8f4d-71746200c15a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "10d03ac4-6147-4636-a428-bb1098698c58": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c0126b9e-139e-4f1e-9069-e4514e6dbc82": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "150eeb7e-db34-48bb-b85d-325141c624c3": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "19ce6b9f-f4cf-4a3f-9788-1482e94528d6": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e75b0afa-094f-4b84-b9c0-b7ce1bc123ec": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f20adbc6-41e9-4118-a55c-70b2ff8861fb": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a6f12732-38d4-4711-9497-a856f76b2dfe": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "59b74c65-bbdc-4bdc-b4d1-9482b4441278": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7d9a0c46-c83f-4332-a0ed-b57446058633": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "de43b934-e84a-4c0a-b298-06207ba545cd": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "90dc6979-b53e-49a6-805d-ecfeba189414": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "22afc586-3029-4a8c-ade8-183c160acd2e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "26ff7d2e-8f49-4548-8de6-c2f26c676354": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "10c454dc-4094-4466-846e-16746ea0b2f3": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "84aebb8c-a11b-42c2-8634-3ba86bde1846": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "93dd587c-c5e0-4072-9fc5-e3b802f20dea": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9de38788-dc20-4d2c-a0e7-ff577538488a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1b464bf5-c505-4b0a-9fab-94da398f6d21": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a4dd8f6e-689f-4998-b8ef-4a04146d12c2": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "59ab539a-8b69-4b1d-9496-839b33050232": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "37ec1015-402e-4078-94d8-6bcf118b659f": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "baf73550-ccd9-4c94-8543-5eb088bfd742": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "427c6688-85ad-4720-b2c7-eb8d7f03f53c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9cc64fc5-99b8-410f-9e05-c337ebfb84c5": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "66f78539-8a80-402e-81dc-28a0737ab127": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a1f13bd7-3de3-49bc-ac68-8641e9601273": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f546954c-33c4-4c87-a268-a92bdb00e4a1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4796d57c-a1a0-4676-b524-57abb5fa73be": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "0fbb28f3-be5a-4cfd-ab8f-1e501ebc106d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "08b10209-baf2-4a62-ba17-f8233ce75bfa": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "3d4ec35f-5368-49c0-88ae-64ca99ab7baf": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "0b4bb7ab-9433-4f3c-8abe-d26de134cc8c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e099f46f-fcca-475d-9733-410ca033a00d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d12b8b5d-946b-407f-8b74-4faf00e43fc5": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "73663744-6035-41f3-b386-e6f91e0b36fe": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "45153daa-f672-47f2-898f-f062bcb4e398": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "bc5b8366-c225-4166-a8ed-a3b20817c8e2": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ee585799-3d67-4bed-a135-b7b0ce52b916": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7feb7f1e-7c29-4137-9248-1bc4778beaba": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "38d2b003-a570-4fc4-9836-4e10befcd4fc": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "23a94b80-4bd0-436f-a1b1-f77654b4428c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "0b59c4d8-afe4-4063-bf7e-2195fa33e8a9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "55f518fb-661b-47e7-ae55-18517d658dd4": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e258c6eb-4df1-4d35-8635-653175697092": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "69d63a69-1abb-4e37-82d5-a858db67dfeb": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9266cc47-e982-46fc-9fd4-59bd7fb19a53": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a0fc8138-f7bc-4425-abe6-2ef1b411d447": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "413a2361-4460-4bd6-90b7-3c137a5595ee": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a4abfd29-b99f-4586-b07c-d865028f7e9e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "48ac7d7c-8035-45e6-8a63-8c9206be35b6": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "047c9786-440d-470d-885e-0fd12c4b03d2": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2f56d88b-a263-45de-b9e5-e074dbe52635": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f2977ee7-876f-4d3f-a19b-d4b663e765fc": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c3252e3e-c023-483c-97b5-439d61de237b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "6434c64b-0da0-48a9-9049-2cb4902db026": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "27a35be1-7b94-48e9-8972-022c3767bbb9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "35d5bbd0-79d7-43a9-af54-2b366d290d4a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "cd6b90dc-4de4-4af3-8370-b6a30c9f0dcb": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9f4ad177-3f2c-400b-965e-2c7bb8a29986": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7ada9f1c-5865-4627-a39d-3fd9607a6824": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "839239fb-78b4-4758-8e0d-92ddd05053ba": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9be0f2bb-d615-4032-bf6f-4943a074a6a2": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "03095f8d-8fa3-49db-96c7-84cea4cc54dd": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "56a8a300-3968-4b57-a070-9677be4188c3": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2f6f0573-3d6b-4a7b-b0f2-5274cd993f26": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4f4e619c-bd49-4fa6-8f0c-b6db9d346c37": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "5674bc6d-91d0-4aa8-8027-83dbef965a18": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "fceb3817-eb86-45e2-afa7-d928f0c90c34": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e9a46319-dfc5-42f0-82fd-dbeb9107699e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1fc6b3d5-d047-4339-9d0b-40abbf046480": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9b7fd76e-e95a-474e-911c-c379dea24c56": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c64064f2-6d0c-415e-95b8-a2685e79778e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "54d2ed54-b082-43b7-97f7-67e3c8bfb3b9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "6dbe76ab-213d-43d4-aa87-20967daf4dac": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "50984ee6-9ed2-41f1-a40f-0803208989d1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "99bbb3d0-6e28-451b-ad29-5afff05cc36c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d3c0bef1-e8ab-4f72-8e0f-d04be8bb4c20": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "3d3e6281-6b03-4bb3-b3db-b63ddd07f575": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f35a4902-48b5-40f2-8d0a-98edae74a72b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ce7aaa12-ee05-43e7-abfc-412b88a50c87": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7ebb8ad1-2aed-4147-810c-4cd0b15f84b2": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f784f920-edcb-4fcf-aaac-7061af238826": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "49a1293f-9a8b-4adf-a093-9815adf5e109": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "96ca187b-c37d-41e2-a863-b7b67b6307f0": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "3bfee424-9f85-4c58-b46c-32604d6f9ae1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7a654d3e-8413-4585-a949-5a6d89767a31": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "52a28dd3-5a89-412f-a22f-8173f566bb71": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "140f7fb2-43a0-4d35-be5d-fc52bdee6812": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c00779d4-0d13-4d72-a959-3eb4e5ff7d37": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1e3b5d82-c924-4649-a653-7fa7ead9cd1c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "28d98cf4-c930-4009-9474-5a44be26768c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "b9492c07-4543-4cf6-b05a-118c5a401a08": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f28b8d83-e5aa-4788-915c-984845cc9a63": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "af477429-479b-4cc9-848a-be978e9d9bf2": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "87aadcb7-060d-4c8d-9d34-b2833bf9be21": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9f99471e-548a-4634-a7f0-dc4cd24690aa": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "fec4aa73-a421-4e78-893c-66dd624d8ad8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9b758370-965f-41eb-af1f-5cf6c0912351": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "488c904d-d7ae-4c39-b199-ee2d86d5051e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "0abd88c4-9c8d-4ff3-8777-283cf1664b3b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a7731432-83b2-4ab5-8d3b-a7728b8ebcf2": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ebb0b9df-06b5-4bba-9dd6-03576b48c001": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2befe206-eca3-4a49-8269-600b9e917e3e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9397b95e-5c86-43b3-b852-eb5176829d2e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "43aab40b-2645-4c59-b2e8-bf17b48b5fb9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9eb6949f-375f-493c-ba62-9198c69c249e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "bcd9f6fc-724a-4f41-8df0-565b4fc434d9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4682f3be-20d6-4da3-b00f-78e24e3da3ab": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "348b2706-fbc3-48f0-8568-f497ae033f69": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a276df2e-b669-4145-b656-cf75679a16a0": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ec07b346-3b67-4d48-a6db-00b58ff8407b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "b0c297e0-027e-4537-af18-00f8d56a4e73": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "55ed9563-df88-49b5-a540-63fdc3aa4b24": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e4c1f6b1-1a30-446d-bccb-e23a973c1a08": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "cc8fc720-915f-408d-9b91-b5589c0755d3": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "cfe0d03d-c8ba-4cf7-9c4b-e5851d620ffb": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e6f000d2-2cf5-4ac6-b3a7-1bdd7b3382fc": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "b2347210-0efe-46d4-97b6-ee863db80908": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f28887e5-7d34-4a96-8c67-b4ef8c05ac4a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "52d684c7-0e85-40fe-bd9e-d4627470b0f7": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a39e4422-1434-49f8-b750-0aa3e61d9c1a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7b9920ce-7fac-4395-b1fe-9680734cc500": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "56eb8c1a-cba9-47c8-8229-4258486935e7": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "54bd8823-9bed-4268-86eb-c4bd3854e026": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "fdc83553-27d2-4eed-aa05-46fd086458ae": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "cbe6db5e-3248-46ff-87e4-b620a1abf252": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "b7449035-5047-4705-8515-127119e081e0": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a0fac62f-3c55-4364-bffe-b54e802b065a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "8c837cab-46ce-4976-8ae0-2e6158103945": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "43df6cfe-4f8f-42e9-8996-43441bebd19d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "cd2bed0a-69a8-45d5-ab42-79019b5bfe73": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "00f1a159-d6fb-4dfa-8a0b-97bec4445abf": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1af622be-33ad-4be7-a0c3-cfa6c2338eed": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "cbc06bc3-4c8d-4b6a-bd05-e0f5b70427da": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ec2452c2-97c8-4298-9a19-45da93ed8d66": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "97d14756-c7df-44dc-90f2-6db28e143e3a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "8543a5f0-8d75-43d3-88b3-aebd95b1ada4": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7c6c03d7-a142-4e96-9150-6b3846efa3c2": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2dd1e892-6338-4fba-8345-f7a9f418bb57": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c7b1d8ca-bc1f-4755-9632-bcaaad615794": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "cc7a7beb-dd4d-4de0-bc89-f189d28a2ec9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "55ac2ba9-fe37-414a-a312-4d2a3d4b4af2": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "5a405c02-63c8-4fb6-aa97-8720390aa791": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "88dcce16-f9ee-4ce7-8f0c-04bd2a1df3f7": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "21e0126f-dca2-47a0-84f3-b403bc0e6d71": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "b922a271-0699-4c95-9f75-2b8e213c169f": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c7d59894-4fec-48c7-9ff1-3912148225ef": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d5626bde-2cef-42ec-9e2b-1a709130bf97": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7e1fb75b-8dc1-461b-a656-449322500ad9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "18062fc4-d89d-4ac0-8103-b26c93473852": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e98713df-905a-43da-bdd5-cc61c07a5fe7": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e6cbf238-917d-4e59-909e-599c1fbdeaf9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "fa6109f6-1cb7-4c7e-83d3-8095cbb32170": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f584aeed-f101-459d-80d1-174c09579060": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "51a3c6f9-b388-48ee-a5e3-96b433d931b7": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "02725396-8278-4c8f-8f7c-a79c9c100660": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4054a170-d9fb-4e88-89fb-f4a27b070c81": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e19d19d3-0a03-4c11-b119-fc20641917c0": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d8678bcb-4e45-44a4-af59-ccd8d92518c1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "52a33330-be8f-4f58-8dd7-f556735c2176": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ecce77dc-1290-438e-a056-970b256fd553": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d999fe4a-b7e7-4c74-8184-19f824d6b487": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e671caea-80d8-4245-8bf3-72144e19e559": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "24d4b1c8-ad48-4f6f-939d-a6d4e0d25a0c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1ceb823d-112e-4125-8a1c-6581b3521924": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "bb451a28-77b5-4e67-b562-0ad960c6abd8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ef3def2b-faf2-4c28-b35b-6c874c70c1e3": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "fd0407c5-5310-4948-8c47-1000933c7fda": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d25c3aac-10ba-4a36-bdf0-35f5ffb4dc6f": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "421a9b3c-0d0b-4033-8002-3de504542a37": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e00bf5f1-0554-4130-9a8f-7343cdf2816f": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "161bade3-e592-4aff-a1f7-0a49f2f92bab": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "31a34783-93cd-4d65-8500-66885bf5a65b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7ac4f102-aa4a-4c97-b637-18e158f79348": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e16f433a-5dfd-4cd7-a75f-eac108b0c543": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a2b7f203-d18a-4cb6-8736-f3a881d3f4bc": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "eef82f03-2a97-41cd-986a-0ce973604ab8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4776f465-5705-4468-84f1-ab1f2636918a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "daf47583-cecf-48ec-accb-07285910c21b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "58877b64-70c3-4558-aa86-377d2017633d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "5ce3f172-9e4f-4ad3-8bff-b3c2f68fd3cf": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "cf864ce9-f8a3-4f96-b78d-967eb78c4973": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "aabdff5d-fc69-46d7-9e81-d826dd1d6649": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "98fccb9e-5be2-4adf-99c9-463b5efa0fcc": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "3359cf7a-9ae1-4ccb-b8e2-ec5aad64d775": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "964dd9d2-e196-41b2-9e2d-8e0548d794eb": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c42b6664-79c3-4ee1-9ec4-aa849b27c75c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "956bc3a9-d6f4-4398-835c-238754e17b69": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "53247692-963b-4dca-89be-d053da08cfb0": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2f1190c6-10f5-4698-a0c1-487f2fa07882": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f7ef95e1-3082-4cda-a204-a35fd8dc81ed": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1e3782ea-739f-4011-b8a3-0df1ade1e5a1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c7383e46-3412-4dec-9194-831d1dc98e50": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "0c21d4de-02d3-4a62-a552-2c16d3599fed": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "5d8b23b1-a03a-429b-9049-1f8456932376": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "44ac4888-4aa4-49a9-9344-23b729c11df9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9bca3df8-d779-4ff7-aee5-e53ce301229b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a7de9fe1-e4e2-4dcf-929c-570fcf9947bf": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "3204925d-0493-4b8b-b42b-fb0d8041837b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "30b21d2c-6b50-4f5f-a3f3-c8e4399f5ded": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "399bcdec-5d5a-4b2e-aff0-3ef7c6f2605d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ca298484-a7f4-45c7-9dc5-eb091068decf": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "be86878c-0364-4cb8-a139-4ffda013486d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "bd42b457-3656-4c0b-8b07-f1085940fdcb": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4b33f269-13d6-418d-bc2a-5be83f3bd85c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4d3d6106-8c84-4d80-aa4c-4ef91744e3c4": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1897bf8b-8893-4f0e-8548-2f7adad9609c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d145e1db-d069-452f-b46d-7ad9b0fd906d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "5522a73c-f9bd-45b1-a63b-5c2262fe1f98": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c213be6e-2a54-4f51-acf7-60cefb6adfbd": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "fb07f5d8-94b8-4985-bf2f-a54fe832aa66": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "17fade58-3be2-4ff9-86c8-503f5e4a1cba": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "8051cdeb-d98d-48d0-9f88-99c83b70303a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e6a6459c-1fb1-49c3-a2f0-774b9a9693ac": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d0957cd8-63a4-4d48-a34c-8c64438b01ed": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a028f9dc-9773-4f50-863d-60aeea5b2eff": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "38c9ff3a-849f-4bd4-b12a-e9d69939f3e3": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4ff5c4da-5bce-4ba7-b580-b6a039642355": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c68c0799-65c3-42f4-b8ba-93a248013d35": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4f1dd3e0-da47-4408-a2a6-cb73d75bd592": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "6367a8db-eab0-4473-8672-df51384ed1f8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "05e9ff72-83b8-4185-a49e-957ba7a467c9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f66a0539-198d-4916-badc-39ea7a8509c1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "6d1e3caa-780d-40fd-a045-766b3170235d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "545b02ce-29ed-41bb-9a0e-be46d7dd0b8b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c26512e6-25f6-444c-a8f0-75724b4467c1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "56a8808b-beda-46f2-a3e9-f5bd08c0f743": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "106285d7-fee8-49d3-96f3-05ee11a634f5": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "3185d099-556c-4a32-9e7f-b0f8c3e4d656": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1b6d8c7f-c9a1-4f8f-b629-feef68e6e38e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7108bfa5-6ce2-45b8-8b24-59235631f417": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7debf647-afa8-476e-81ad-a74417bda812": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "abdd4174-8c8f-45ae-90a4-ffa3b369941b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "900424ab-ac1c-4477-8c82-4730ff421744": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "53bad137-a38e-4990-87ec-138099e665b6": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1dc4fae4-26ad-4700-a6e0-58760fa228e7": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "70293749-be2a-4aba-8bb1-9c0d863c3ccb": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "8c654827-10c6-4a97-9dca-21b33785ca68": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "97f595e2-9f25-45b2-8ed9-9ad33e80c7df": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4d81b7b4-8bc1-4ff8-8fe5-da74bc37fef0": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "542e1898-3720-46de-bb65-3892df0cdece": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "afb4fce4-6495-411d-839b-5f3808382495": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "89e68d5c-018d-4aba-9d03-a5079b957162": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2d656544-ce49-4c1f-886f-8075db7239b3": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "6f84cbaf-db6e-4e71-a68a-b4c586550fb8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "cfc915cf-0fef-499f-a24a-15e18ef44605": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9e586fb6-2570-4445-8556-aa20d337fb98": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c9b8b8ab-bdc8-43d8-9004-47977bc14e03": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d5161b7e-e683-4bd1-8c12-661ea55cf56d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c228eea3-78a1-4aca-8fab-8678c97f17c0": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "3325a597-4c74-4292-9152-66b7177b27f1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "46994f63-dd0a-470b-871a-8a2941f6d003": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e5fed240-9572-4a67-985d-d8961d73d7b6": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c941b087-f465-4de9-997c-dab9199bd4b1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2856cb40-1e30-4fe1-9af5-40622d224b5d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7bff0f47-f7c3-4367-9cb5-78a1c8c68a56": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "0f31eee6-404a-45a8-8c44-bd0b220c5326": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c800e1cb-7e26-48fd-9f15-97703e921a21": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1558d2b8-dbbe-41bd-bf31-86e43a386e71": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "8dc3f89c-fb9a-45b4-925a-3bc09519a449": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2a037482-dfcc-4aaa-98eb-32532b5f00b2": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d25d032c-d9ea-4616-a296-a32830033b63": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "777672d3-73cb-44ab-9c7e-0f0d82f9c236": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "b88927ec-fb92-40c7-a33e-d16be99809c7": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1a8f4017-07c8-4ab8-a73f-b52d126cc01f": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e06b74a0-5987-4731-b127-77f8d1b29682": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "24ce3de6-4e33-4a82-9627-8c5f7a27a481": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "0784f3f3-1145-415e-a5cf-74e394fbe876": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "7c73973e-3dd2-44ae-8fb5-3bc63c6c2edf": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "cd09ad33-8c34-4850-ac26-24448d92c38f": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "896ba009-854c-4290-bd05-42c87ddcdb7c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "44a299b9-c8c8-4884-984a-d4916ff52c7d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "299c468e-2730-42d1-86a8-9d887b854a41": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "dda5690a-737b-4771-9e71-9f685bd47e8f": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "78f6e079-065d-4551-8bac-25631bf471d8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "381be555-ea6f-43ea-aeff-6d8e44ac97d1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "62b9954c-bb3a-4e9d-8bc4-184119390b61": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9649e169-46df-46cd-8724-98b27135a6f0": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "5b7a7da0-f3cb-4c81-9245-0277d1d81cd9": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1e4729d4-4868-4859-94df-65d0eb8a1eea": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c408c692-fddb-49b2-a941-601cf1023844": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "40aed39a-f3ba-40b8-9528-725abfd3d4cd": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2f9c4a7e-aa1d-49da-8132-5fd89adea518": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "3c082b0b-3bf7-434c-8101-abdb981b5992": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "fda2ac23-82d4-43fe-9138-75255506e53e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "b6caa664-70fd-4e55-89fa-a039f68c40d6": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "12742951-3409-493f-9e42-e63c58812b5a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "3b14a7c8-036c-42ed-afe1-a5cb05df285d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "116d8225-b55f-4667-8a93-47863d4ed7a8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d7173a2c-acdd-452e-acb6-3bd0e12c9037": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "b88792f7-0b64-420d-81ca-43a08eb57bb4": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4cb9a1f2-5c84-47cf-b976-28b92bd7f882": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f6432360-b03f-4627-be21-cee16e820730": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9b4bbcbf-1291-47ff-9bac-89add0b3dfd4": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "63a5a5c1-2100-448d-b742-ac3199d5bb32": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e1f11598-fe0f-4bd9-8ac8-b8bd24efcb67": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a1aace60-4091-4ea2-907f-f455aa235a33": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "840895f6-1e85-43fe-8fb4-27eee5ea9611": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "07195267-53da-4fa3-8410-62807cdbab46": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "5f216692-32ae-42b8-bb2b-0d8b06ff455b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "237e943c-c1a0-4936-9269-1b5ad1dc8b4c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "97f306fa-6af4-4796-944b-73b1a704619c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "34ac4ca3-86ac-40f2-9ed1-2ea1e7e3b6c3": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "63950f5d-2e13-4514-a880-414c63cb2057": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a6a44fc2-aa8f-41e8-af52-ad392755093a": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "0e70a492-4d9e-4783-be94-660c24f9a7b8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ece9440d-b9be-4965-964b-d3a84fc19829": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "c7c513be-82c0-4ea8-b3fd-74081cf39dc4": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "3ec49111-4bea-4ab6-aaa6-736c8a865a57": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d6dbde59-f3f7-47b5-9e1e-f30991f58ac1": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "dfae9909-388b-4517-ab42-564eb81f00cb": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "b85acd98-f359-4d6a-b63f-4b86b0fd317c": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "64a4fe31-b2f1-452a-8b9d-69dd81bc588d": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a0aae28b-f76a-4408-a292-2367fb2683ba": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "5245ba27-f960-49f4-973d-a2e3a12cb556": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "19f2c8dd-b8de-4c51-8ca0-ab65c16ec3aa": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "d162c180-c7a9-4959-abf5-596735da54c6": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "44b96822-f49c-4768-89ac-e3e4f62d5e59": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "00af2afb-f2dc-4d29-a9e3-9e614019121e": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1234cfc4-ccfe-47a3-a8c9-ffcbcddc07a8": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "979e0abf-c87a-4ff4-9da0-82a873954d3b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "ecaa320d-1082-4f19-84b5-d7460adfc3ee": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "9bd2cce4-e9c7-4cfa-a19d-59837d2a9eea": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "f2940571-55bf-4cfe-a85b-cf65363b660b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "76a987d5-ecf6-4340-a9be-3e992068314b": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "1b030aad-be1b-4fd5-86db-ea4e08e77121": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "78585c2b-d4fd-4acd-96ac-7114dd286e20": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "2b08b874-ab51-4689-930b-f3e673995359": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "8cfc6f31-34cf-4c99-be21-5af290dbe7b7": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "b8c59c96-a8e9-46bf-b9f7-1041b7439858": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "a499c320-1c22-4d76-a118-a7181a74fbcd": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "4cbc7003-367c-47e7-ad3a-31b7737b3085": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "5198dae0-99e0-4340-a90c-7b360c03798f": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  },
+  "e11222e6-09f4-40f9-94f5-599ab6aa1cf7": {
+    "nodeType": "FunctionNode",
+    "packageName": "Clockwork for Dynamo 2.x",
+    "packageVersion": "2.4.0"
+  }
+}

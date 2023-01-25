@@ -1,0 +1,252 @@
+{
+  "DynamoRebarUI.RevitRebarHookType, DynamoRebarUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebarUI.RebarBarType, DynamoRebarUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebarUI.RebarHookOrientation, DynamoRebarUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebarUI.RebarStyle, DynamoRebarUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebarUI.HorizontalAlignment, DynamoRebarUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebarUI.VerticalAlignment, DynamoRebarUI": {
+    "nodeType": "ExtensionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.VerticalAlignment.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.VerticalAlignment.ByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.HorizontalAlignment.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.HorizontalAlignment.ByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.Rebar.ByCurve@Autodesk.DesignScript.Geometry.Curve,int,string,Revit.Elements.Element,string,string,Revit.Elements.Element,Revit.Elements.Element,Autodesk.DesignScript.Geometry.Vector": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.Rebar.FreeFormRebarByCurves@Autodesk.DesignScript.Geometry.Curve[][],int,Revit.Elements.Element": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.Rebar.SetUnobscuredInView@Revit.Elements.Element,Revit.Elements.Views.View,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.Rebar.SetSolidInView@Revit.Elements.Element,Revit.Elements.Views.View3D,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.Rebar.SetBarHiddenStatus@Revit.Elements.Element,Revit.Elements.Views.View,int,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.RebarBarType.ByAngle@double,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.RebarBarType.ByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.RebarHookType.ByAngle@double,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.RebarHookType.ByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.RebarStyle.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.RebarStyle.ByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.RebarContainer.ByCurve@Autodesk.DesignScript.Geometry.Curve[],int,string,Revit.Elements.Element,string,string,Revit.Elements.Element,Revit.Elements.Element,Autodesk.DesignScript.Geometry.Vector[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.RebarContainer.ByBars@Revit.Elements.Rebar[]": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.RebarContainer.SetUnobscuredInView@Revit.Elements.Element,Revit.Elements.Views.View,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.RebarContainer.SetSolidInView@Revit.Elements.Element,Revit.Elements.Views.View3D,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.RebarContainer.SetItemHiddenStatus@Revit.Elements.Element,Revit.Elements.Views.View3D,int,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.RebarContainer.AppendBar@Revit.Elements.Rebar[],Revit.Elements.RebarContainer": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.RebarHookOrientation.Name": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "Revit.Elements.RebarHookOrientation.ByName@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.Morphed@Autodesk.DesignScript.Geometry.Curve,Autodesk.DesignScript.Geometry.Curve,int,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.CoverToOffset@double,Revit.Elements.Element,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.GetRebarTypeProperties@double,Revit.Elements.Element": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.Perpendicular@Autodesk.DesignScript.Geometry.Surface,Autodesk.DesignScript.Geometry.Surface[],double,int,bool,double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.FollowingSurface@Autodesk.DesignScript.Geometry.Surface,int,double,bool,double,bool,bool,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.Cut@Autodesk.DesignScript.Geometry.Surface,Revit.Elements.Element,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.Shorten@Autodesk.DesignScript.Geometry.Curve[],double": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.GetMaterialNames@Revit.Elements.Element,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.GetParameterNameAndValue@var": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.UpdateLocationPoint@Revit.Elements.Element,Autodesk.DesignScript.Geometry.Point": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.UpdateLocationCurve@Revit.Elements.Element,Autodesk.DesignScript.Geometry.Curve": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.SetLayoutAsMaximumSpacing@Revit.Elements.Element,double,double,bool,bool,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.SetLayoutAsMinimumClearSpacing@Revit.Elements.Element,double,double,bool,bool,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.SetLayoutAsFixedNumber@Revit.Elements.Element,int,double,bool,bool,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.SetLayoutAsNumberWithSpacing@Revit.Elements.Element,int,double,bool,bool,bool": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.SetLayoutAsSingle@Revit.Elements.Element": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.GetArrayLength@Revit.Elements.Element": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.GetHeight@Revit.Elements.Element": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.GetMultiplanarDepth@Revit.Elements.Element": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.GetNormal@Revit.Elements.Element": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  },
+  "DynamoRebar.Rebar.GetMaterialProperties@string": {
+    "nodeType": "FunctionNode",
+    "packageName": "Dynamo for Rebar",
+    "packageVersion": "2.0.2"
+  }
+}
