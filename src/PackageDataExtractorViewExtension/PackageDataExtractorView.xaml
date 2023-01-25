@@ -8,9 +8,6 @@
              xmlns:controls1="clr-namespace:Dynamo.UI.Controls;assembly=DynamoCoreWpf"
              mc:Ignorable="d" 
              d:DesignHeight="800" d:DesignWidth="500">
-    <UserControl.Resources>
-        <BooleanToVisibilityConverter x:Key="BoolToVis" />
-    </UserControl.Resources>
     <Grid x:Name="MainGrid" Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="48"/>
@@ -24,6 +21,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
+        <!--package selector-->
         <Label Grid.Row="0" Grid.Column="0" Content="Select a Package:" FontSize="13" 
                 VerticalContentAlignment="Center" Foreground="#E5E5E5"/>
         <ComboBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding LoadedPackages}" DisplayMemberPath="Name" Margin="8" SelectedItem="{Binding SelectedPackage}" Foreground="Black" VerticalContentAlignment="Center"/>
@@ -34,12 +32,20 @@
             </Label.Content>
         </Label>
 
+        <!--file path stuff-->
         <Label Grid.Row="2" Grid.Column="0" Content="JSON File Path:" FontSize="13" VerticalContentAlignment="Center" Foreground="#E5E5E5"/>
         <TextBox Grid.Row="2" Grid.Column="1" Margin="8" Text="{Binding JsonFilePath}" VerticalContentAlignment="Center" HorizontalAlignment="Stretch"/>
 
-        <ListView Grid.Row="3" Grid.Column="1" Margin="8" ItemsSource="{Binding PackageNodes}" DisplayMemberPath="CreationName" Foreground="#E5E5E5" Background="#353535" BorderBrush="{x:Null}"/>
+        <!--display the nodes for fun-->
+        <ListView Grid.Row="3" Grid.Column="1" Margin="8" ItemsSource="{Binding PackageNodes}" DisplayMemberPath="CreationName" Foreground="#E5E5E5" Background="#353535" BorderBrush="{x:Null}">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="IsHitTestVisible" Value="False"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+        </ListView>
 
-
+        <!--ship it-->
         <Button Grid.Column="0" Grid.Row="4" Margin="8" Content="Export to JSON"  Command="{Binding ExportJsonCommand}"
                 IsEnabled="{Binding CanExport}"/>
     </Grid>

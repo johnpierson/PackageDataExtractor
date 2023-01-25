@@ -1,9 +1,5 @@
 ﻿using Dynamo.Wpf.Extensions;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -12,7 +8,7 @@ namespace PackageDataExtractor
     public class PackageDataExtractorViewExtension : ViewExtensionBase, IViewExtension
     {
         public MenuItem PackageDataExtractorMenuItem;
-        private ViewLoadedParams viewLoadedParamsReference;
+        private ViewLoadedParams _viewLoadedParamsReference;
 
         internal PackageDataExtractorView View;
         internal PackageDataExtractorViewModel ViewModel;
@@ -35,28 +31,20 @@ namespace PackageDataExtractor
         public override void Dispose()
         {
             // Cleanup
-            if (PackageDataExtractorMenuItem != null)
-            {
-                //PackageDataExtractorMenuItem.Checked -= MenuItemCheckHandler;
-                //PackageDataExtractorMenuItem.Unchecked -= MenuItemUnCheckHandler;
-            }
-
             ViewModel?.Dispose();
             View = null;
             ViewModel = null;
         }
         public override void Loaded(ViewLoadedParams viewLoadedParams)
         {
-            if (viewLoadedParams == null) throw new ArgumentNullException(nameof(viewLoadedParams));
-
-            viewLoadedParamsReference = viewLoadedParams;
+            _viewLoadedParamsReference = viewLoadedParams ?? throw new ArgumentNullException(nameof(viewLoadedParams));
 
             // Add a button to Dynamo View menu to manually show the window
             PackageDataExtractorMenuItem = new MenuItem { Header = Properties.Resources.HeaderText, IsCheckable = true };
             PackageDataExtractorMenuItem.Checked += MenuItemCheckHandler;
             PackageDataExtractorMenuItem.Unchecked += MenuItemUnCheckHandler;
 
-            viewLoadedParamsReference.AddExtensionMenuItem(PackageDataExtractorMenuItem);
+            _viewLoadedParamsReference.AddExtensionMenuItem(PackageDataExtractorMenuItem);
         }
 
         public override void Shutdown()
@@ -66,7 +54,7 @@ namespace PackageDataExtractor
 
         private void InitializeViewExtension()
         {
-            ViewModel = new PackageDataExtractorViewModel(viewLoadedParamsReference);
+            ViewModel = new PackageDataExtractorViewModel(_viewLoadedParamsReference);
             View = new PackageDataExtractorView(ViewModel);
         }
 
@@ -79,13 +67,13 @@ namespace PackageDataExtractor
         {
             this.Dispose();
 
-            viewLoadedParamsReference.CloseExtensioninInSideBar(this);
+            _viewLoadedParamsReference.CloseExtensioninInSideBar(this);
         }
         private void AddToSidebar()
         {
             InitializeViewExtension();
 
-            viewLoadedParamsReference?.AddToExtensionsSideBar(this, View);
+            _viewLoadedParamsReference?.AddToExtensionsSideBar(this, View);
         }
 
         public override void Closed()

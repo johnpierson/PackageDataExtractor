@@ -1,13 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.IO;
-using System.IO.Packaging;
 using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using Dynamo.Core;
 using Dynamo.Graph.Nodes;
 using Dynamo.Graph.Nodes.CustomNodes;
@@ -19,8 +15,6 @@ using Dynamo.Wpf.Extensions;
 using Dynamo.PackageManager;
 using Dynamo.UI.Commands;
 using Newtonsoft.Json;
-using System.Web;
-using Dynamo.Controls;
 using Package = Dynamo.PackageManager.Package;
 
 namespace PackageDataExtractor
@@ -43,11 +37,6 @@ namespace PackageDataExtractor
         {
             get
             {
-                if (CurrentJson != null)
-                {
-                    return true;
-                }
-
                 if (!string.IsNullOrWhiteSpace(JsonFilePath))
                 {
                     return true;
@@ -76,7 +65,14 @@ namespace PackageDataExtractor
             get => _selectedPackage;
             set
             {
-                // Some logic here
+                if (value is null)
+                {
+                    _selectedPackage = value;
+                    PackageNodes = GetPackageNodes();
+                    RaisePropertyChanged(nameof(PackageNodes));
+
+                    return;
+                }
                 _selectedPackage = value;
                 PackageNodes = GetPackageNodes();
                 RaisePropertyChanged(nameof(PackageNodes));
@@ -100,12 +96,6 @@ namespace PackageDataExtractor
         /// </summary>
         public ObservableCollection<MlNode> PackageNodes { get; set; } = new ObservableCollection<MlNode>();
 
-        /// <summary>
-        /// Selected nodes for export
-        /// </summary>
-        public List<NodeSearchElement> CustomNodesToSearch { get; set; }
-
-
         public PackageDataExtractorViewModel(ViewLoadedParams p)
         {
             if (p == null) return;
@@ -113,37 +103,37 @@ namespace PackageDataExtractor
             viewLoadedParamsInstance = p;
 
             DynamoViewModel = viewLoadedParamsInstance.DynamoWindow.DataContext as DynamoViewModel;
-            PackageManager = viewLoadedParamsInstance.ViewStartupParams.ExtensionManager.Extensions.OfType<PackageManagerExtension>().FirstOrDefault();
+            PackageManager = DynamoViewModel.Model.GetPackageManagerExtension();
 
-            LoadedPackages = PackageManager.PackageLoader.LocalPackages.ToObservableCollection();
+            //subscribe to package manager events
+            PackageManager.PackageLoader.PackgeLoaded += OnPackageChange;
+            PackageManager.PackageLoader.PackageRemoved += OnPackageChange;
+          
+            LoadedPackages = PackageManager.PackageLoader.LocalPackages.Where(HasNodes).ToObservableCollection();
             ExportJsonCommand = new DelegateCommand(ExportJson);
         }
 
-        private ObservableCollection<string> GetLoadedPackages()
+        private void OnPackageChange(Package obj)
         {
-            List<string> packages = new List<string>();
-            List<NodeSearchElement> nodesToSearch = new List<NodeSearchElement>();
-            var libraries = DynamoViewModel.Model.SearchModel.SearchEntries.ToList();
-
-            foreach (var element in libraries)
+            if (SelectedPackage != null)
             {
-                // Only include packages and custom nodes
-                if (element.ElementType.HasFlag(ElementTypes.Packaged) ||
-                    element.ElementType.HasFlag(ElementTypes.CustomNode))
+                if (SelectedPackage == obj)
                 {
-                    packages.Add(element.Categories.First());
-                    nodesToSearch.Add(element);
+                    SelectedPackage = null;
+                    JsonFilePath = string.Empty;
+                    RaisePropertyChanged(nameof(JsonFilePath));
+                    RaisePropertyChanged(nameof(CanExport));
                 }
             }
-
-            CustomNodesToSearch = nodesToSearch;
-
-            return packages.Distinct().ToObservableCollection();
+            
+            LoadedPackages = PackageManager.PackageLoader.LocalPackages.Where(HasNodes).ToObservableCollection();
+            RaisePropertyChanged(nameof(LoadedPackages));
+            RaisePropertyChanged(nameof(SelectedPackage));
         }
 
         private ObservableCollection<MlNode> GetPackageNodes()
         {
-            //var packages = PackageManager.PackageLoader.LocalPackages.ToList();
+            if(SelectedPackage is null) return new ObservableCollection<MlNode>();
 
             //data to write
             List<MlNode> nodeData = new List<MlNode>();
@@ -169,9 +159,9 @@ namespace PackageDataExtractor
                             skip = !nodeModelSearchElement.Assembly.Contains(SelectedPackage.RootDirectory);
                             break;
                     }
-                    if(skip) continue;
-                    
-                    //build a node model, there is probably an easier way to do this, but ah well
+                    if (skip) continue;
+
+                    //build a node model, there is probably an easier way to do this, but ah well TODO: Check with the team about making this a bit nicer.
                     NodeModel nodeModel;
                     try
                     {
@@ -206,10 +196,9 @@ namespace PackageDataExtractor
                             mlNodeData.NodeType = "ExtensionNode";
 
                             break;
-                        //TODO: Find concrete type for other nodes
                     }
 
-                    if(string.IsNullOrWhiteSpace(mlNode.Name)) continue;
+                    if (string.IsNullOrWhiteSpace(mlNode.Name)) continue;
 
                     //store the creation name for preview
                     if (nodeModel != null) mlNode.CreationName = nodeModel.Name;
@@ -223,7 +212,7 @@ namespace PackageDataExtractor
                     {
                         jsonDataDictionary.Add(mlNode.Name, mlNodeData);
                     }
-                   
+
 
                     mlNode.nodeData = mlNodeData;
 
@@ -240,7 +229,7 @@ namespace PackageDataExtractor
         }
 
         /// <summary>
-        ///     The main method executing the export
+        /// The main method executing the export
         /// </summary>
         /// <param name="obj"></param>
         private void ExportJson(object obj)
@@ -251,7 +240,51 @@ namespace PackageDataExtractor
         public void Dispose()
         {
             DynamoViewModel = null;
+            //unsubscribe to package manager events
+            PackageManager.PackageLoader.PackageAdded -= OnPackageChange;
+            PackageManager.PackageLoader.PackageRemoved -= OnPackageChange;
+            PackageManager = null;
         }
 
+        private bool HasNodes(Package package)
+        {
+            if (package.LoadedCustomNodes.Any())
+            {
+                return true;
+            }
+            var customNodes = DynamoViewModel.Model.SearchModel.SearchEntries.Where(s =>
+                s.IsVisibleInSearch && (s.ElementType.HasFlag(ElementTypes.Packaged) ||
+                                        s.ElementType.HasFlag(ElementTypes.CustomNode)));
+
+            foreach (var nodeSearchElement in customNodes)
+            {
+                switch (nodeSearchElement)
+                {
+                    case CustomNodeSearchElement customNodeSearchElement:
+                        if (customNodeSearchElement.Path.Contains(package.RootDirectory))
+                        {
+                            return true;
+                        }
+
+                        break;
+                    case ZeroTouchSearchElement zeroTouchSearchElement:
+                        if (zeroTouchSearchElement.Assembly.Contains(package.RootDirectory))
+                        {
+                            return true;
+                        }
+                        break;
+                    case NodeModelSearchElement nodeModelSearchElement:
+                        if (nodeModelSearchElement.Assembly.Contains(package.RootDirectory))
+                        {
+                            return true;
+                        }
+                        break;
+                    default:
+                        return false;
+                }
+            }
+
+            return false;
+        }
     }
 }
