@@ -19,6 +19,7 @@ using Dynamo.Wpf.Extensions;
 using Dynamo.PackageManager;
 using Dynamo.UI.Commands;
 using Newtonsoft.Json;
+using System.Web;
 
 namespace PackageDataExtractor
 {
@@ -102,6 +103,7 @@ namespace PackageDataExtractor
         /// </summary>
         public List<NodeSearchElement> CustomNodesToSearch { get; set; }
 
+
         public PackageDataExtractorViewModel(ViewLoadedParams p)
         {
             if (p == null) return;
@@ -145,8 +147,6 @@ namespace PackageDataExtractor
             List<MlNode> nodeData = new List<MlNode>();
             Dictionary<string, MlNodeData> jsonDataDictionary = new Dictionary<string, MlNodeData>();
 
-            //var libraries = DynamoViewModel.Model.SearchModel.SearchEntries.Where(e => e.Categories.First().Equals(SelectedPackage)).ToList();
-
             foreach (var element in CustomNodesToSearch)
             {
                 // Only include packages and custom nodes
@@ -177,6 +177,9 @@ namespace PackageDataExtractor
                         //TODO: Find concrete type for other nodes
                     }
 
+                    //store the creation name for preview
+                    if (nM != null) mlNode.CreationName = nM.Name;
+
                     //get the version
                     var package = packages.First(p => p.Name.Contains(SelectedPackage));
                     mlNodeData.PackageName = package.Name;
@@ -185,7 +188,7 @@ namespace PackageDataExtractor
                     jsonDataDictionary.Add(mlNode.Name, mlNodeData);
 
                     mlNode.nodeData = mlNodeData;
-                        
+
                     nodeData.Add(mlNode);
 
                 }
@@ -193,6 +196,7 @@ namespace PackageDataExtractor
 
             CurrentJson = JsonConvert.SerializeObject(jsonDataDictionary);
             RaisePropertyChanged(nameof(CurrentJson));
+
 
             return nodeData.ToObservableCollection();
         }
@@ -203,7 +207,7 @@ namespace PackageDataExtractor
         /// <param name="obj"></param>
         private void ExportJson(object obj)
         {
-            File.WriteAllText(JsonFilePath,CurrentJson);
+            File.WriteAllText(JsonFilePath, CurrentJson);
         }
 
         public void Dispose()

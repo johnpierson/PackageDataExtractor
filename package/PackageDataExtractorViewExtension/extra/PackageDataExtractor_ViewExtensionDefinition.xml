@@ -1,0 +1,4 @@
+﻿<ViewExtensionDefinition>
+  <AssemblyPath>..\bin\PackageDataExtractorViewExtension.dll</AssemblyPath>
+  <TypeName>PackageDataExtractor.PackageDataExtractorViewExtension</TypeName>
+</ViewExtensionDefinition>

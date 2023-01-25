@@ -10,6 +10,7 @@ namespace PackageDataExtractor
     public class MlNode
     {
         public string Name { get; set; }
+        public string CreationName { get; set; }
         public MlNodeData nodeData { get; set; }
     }
 

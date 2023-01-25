@@ -94,6 +94,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>if $(ConfigurationName) == Debug copy "$(ProjectDir)bin\Debug\PackageDataExtractorViewExtension.dll" "C:\Users\JohnPierson\AppData\Roaming\Dynamo\Dynamo Core\2.17\packages\PackageDataExporterViewExtension\bin"</PostBuildEvent>
+    <PostBuildEvent>if $(ConfigurationName) == Debug copy "$(ProjectDir)bin\Debug\PackageDataExtractorViewExtension.dll" "C:\Users\JohnPierson\AppData\Roaming\Dynamo\Dynamo Core\2.17\packages\PackageDataExtractorViewExtension\bin"</PostBuildEvent>
   </PropertyGroup>
 </Project>
