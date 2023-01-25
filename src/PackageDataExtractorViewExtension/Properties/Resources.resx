@@ -126,4 +126,10 @@
   <data name="HeaderText" xml:space="preserve">
     <value>Extract Package Data to JSON</value>
   </data>
+  <data name="JsonFilePathText" xml:space="preserve">
+    <value>JSON File Path:</value>
+  </data>
+  <data name="PackageSelectorText" xml:space="preserve">
+    <value>Select a Package:</value>
+  </data>
 </root>

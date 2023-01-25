@@ -21,7 +21,7 @@ namespace PackageDataExtractor
 {
     public class PackageDataExtractorViewModel : NotificationObject, IDisposable
     {
-        private readonly ViewLoadedParams viewLoadedParamsInstance;
+        private  ViewLoadedParams _viewLoadedParamsInstance;
         internal DynamoViewModel DynamoViewModel;
         internal PackageManagerExtension PackageManager;
 
@@ -100,9 +100,9 @@ namespace PackageDataExtractor
         {
             if (p == null) return;
 
-            viewLoadedParamsInstance = p;
+            _viewLoadedParamsInstance = p;
 
-            DynamoViewModel = viewLoadedParamsInstance.DynamoWindow.DataContext as DynamoViewModel;
+            DynamoViewModel = _viewLoadedParamsInstance.DynamoWindow.DataContext as DynamoViewModel;
             PackageManager = DynamoViewModel.Model.GetPackageManagerExtension();
 
             //subscribe to package manager events
@@ -112,7 +112,10 @@ namespace PackageDataExtractor
             LoadedPackages = PackageManager.PackageLoader.LocalPackages.Where(HasNodes).ToObservableCollection();
             ExportJsonCommand = new DelegateCommand(ExportJson);
         }
-
+        /// <summary>
+        /// Reload the package list on a change of the packages loaded.
+        /// </summary>
+        /// <param name="obj"></param>
         private void OnPackageChange(Package obj)
         {
             if (SelectedPackage != null)
@@ -130,7 +133,10 @@ namespace PackageDataExtractor
             RaisePropertyChanged(nameof(LoadedPackages));
             RaisePropertyChanged(nameof(SelectedPackage));
         }
-
+        /// <summary>
+        /// Collect the relevant nodes for the selected package.
+        /// </summary>
+        /// <returns></returns>
         private ObservableCollection<MlNode> GetPackageNodes()
         {
             if(SelectedPackage is null) return new ObservableCollection<MlNode>();
@@ -203,21 +209,20 @@ namespace PackageDataExtractor
                     //store the creation name for preview
                     if (nodeModel != null) mlNode.CreationName = nodeModel.Name;
 
-                    //get the version
+                    //get the package name and version
                     var package = SelectedPackage;
                     mlNodeData.PackageName = package.Name;
                     mlNodeData.PackageVersion = package.VersionName;
 
+                    //if for some reason, multiple nodes exist with the same signature, skip it
                     if (!jsonDataDictionary.ContainsKey(mlNode.Name))
                     {
                         jsonDataDictionary.Add(mlNode.Name, mlNodeData);
                     }
 
-
+                    //the node data gets displayed in the window, and that's pretty much it
                     mlNode.nodeData = mlNodeData;
-
                     nodeData.Add(mlNode);
-
                 }
             }
 
@@ -241,17 +246,24 @@ namespace PackageDataExtractor
         {
             DynamoViewModel = null;
             //unsubscribe to package manager events
-            PackageManager.PackageLoader.PackageAdded -= OnPackageChange;
+            PackageManager.PackageLoader.PackgeLoaded -= OnPackageChange;
             PackageManager.PackageLoader.PackageRemoved -= OnPackageChange;
             PackageManager = null;
         }
 
+        /// <summary>
+        /// Check if the package has nodes in it. This way we don't show extensions in the dropdown too.
+        /// </summary>
+        /// <param name="package">The package to check.</param>
+        /// <returns name="result">If it is a package with nodes, we will return a result.</returns>
         private bool HasNodes(Package package)
         {
+            //this section flags the easier (dyf-based) packages. Zero touch requires a bit more searching.
             if (package.LoadedCustomNodes.Any())
             {
                 return true;
             }
+            
             var customNodes = DynamoViewModel.Model.SearchModel.SearchEntries.Where(s =>
                 s.IsVisibleInSearch && (s.ElementType.HasFlag(ElementTypes.Packaged) ||
                                         s.ElementType.HasFlag(ElementTypes.CustomNode)));
@@ -265,7 +277,6 @@ namespace PackageDataExtractor
                         {
                             return true;
                         }
-
                         break;
                     case ZeroTouchSearchElement zeroTouchSearchElement:
                         if (zeroTouchSearchElement.Assembly.Contains(package.RootDirectory))

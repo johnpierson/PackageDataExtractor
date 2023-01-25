@@ -86,5 +86,23 @@ namespace PackageDataExtractor.Properties {
                 return ResourceManager.GetString("HeaderText", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to JSON File Path:.
+        /// </summary>
+        public static string JsonFilePathText {
+            get {
+                return ResourceManager.GetString("JsonFilePathText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select a Package:.
+        /// </summary>
+        public static string PackageSelectorText {
+            get {
+                return ResourceManager.GetString("PackageSelectorText", resourceCulture);
+            }
+        }
     }
 }

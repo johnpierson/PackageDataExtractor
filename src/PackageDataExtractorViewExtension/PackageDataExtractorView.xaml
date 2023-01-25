@@ -22,7 +22,7 @@
         </Grid.ColumnDefinitions>
 
         <!--package selector-->
-        <Label Grid.Row="0" Grid.Column="0" Content="Select a Package:" FontSize="13" 
+        <Label Grid.Row="0" Grid.Column="0" Content="{x:Static p:Resources.PackageSelectorText}" FontSize="13" 
                 VerticalContentAlignment="Center" Foreground="#E5E5E5"/>
         <ComboBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding LoadedPackages}" DisplayMemberPath="Name" Margin="8" SelectedItem="{Binding SelectedPackage}" Foreground="Black" VerticalContentAlignment="Center"/>
         <Label FontStyle="Italic" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" ContentStringFormat="{}{0} Nodes to Export.." FontSize="13" 
@@ -33,7 +33,7 @@
         </Label>
 
         <!--file path stuff-->
-        <Label Grid.Row="2" Grid.Column="0" Content="JSON File Path:" FontSize="13" VerticalContentAlignment="Center" Foreground="#E5E5E5"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="{x:Static p:Resources.JsonFilePathText}" FontSize="13" VerticalContentAlignment="Center" Foreground="#E5E5E5"/>
         <TextBox Grid.Row="2" Grid.Column="1" Margin="8" Text="{Binding JsonFilePath}" VerticalContentAlignment="Center" HorizontalAlignment="Stretch"/>
 
         <!--display the nodes for fun-->
