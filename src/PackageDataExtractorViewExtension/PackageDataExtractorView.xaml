@@ -8,6 +8,26 @@
              xmlns:controls1="clr-namespace:Dynamo.UI.Controls;assembly=DynamoCoreWpf"
              mc:Ignorable="d" 
              d:DesignHeight="800" d:DesignWidth="500">
+    <UserControl.Resources>
+        <Style x:Key="ItemStyle" TargetType="{x:Type ComboBoxItem}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ComboBoxItem}">
+                        <Border x:Name="gd" Background="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ComboBox}},Path=Background}">
+
+                            <ContentPresenter />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="ComboBoxItem.IsMouseOver" Value="True">
+                                <Setter TargetName="gd"  Property="Background" Value="#353535"></Setter>
+                                <Setter TargetName="gd"  Property="TextElement.Foreground" Value="#E5E5E5"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
     <Grid x:Name="MainGrid" Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="48"/>
@@ -24,9 +44,15 @@
         <!--package selector-->
         <Label Grid.Row="0" Grid.Column="0" Content="{x:Static p:Resources.PackageSelectorText}" FontSize="13" 
                 VerticalContentAlignment="Center" Foreground="#E5E5E5"/>
-        <ComboBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding LoadedPackages}" DisplayMemberPath="Name" Margin="8" SelectedItem="{Binding SelectedPackage}" Foreground="Black" VerticalContentAlignment="Center"/>
-        <Label FontStyle="Italic" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" ContentStringFormat="{}{0} Nodes to Export.." FontSize="13" 
-                VerticalContentAlignment="Center" Foreground="#E5E5E5">
+        <ComboBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding LoadedPackages}" DisplayMemberPath="Name" Margin="8" SelectedItem="{Binding SelectedPackage}" Foreground="Black" VerticalContentAlignment="Center">
+            <ComboBox.Style>
+                <Style TargetType="ComboBox">
+                    <Setter Property="ItemContainerStyle" Value="{StaticResource ItemStyle}" ></Setter>
+                </Style>
+            </ComboBox.Style>
+        </ComboBox>
+            <Label FontStyle="Italic" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" ContentStringFormat="{}{0} Nodes to Export.." FontSize="13" 
+                   VerticalContentAlignment="Center" Foreground="#E5E5E5">
             <Label.Content>
                 <Binding Path="PackageNodes.Count" FallbackValue="0" Mode="OneWay" UpdateSourceTrigger="Default"/>
             </Label.Content>
@@ -49,4 +75,5 @@
         <Button Grid.Column="0" Grid.Row="4" Margin="8" Content="Export to JSON"  Command="{Binding ExportJsonCommand}"
                 IsEnabled="{Binding CanExport}"/>
     </Grid>
+
 </UserControl>
